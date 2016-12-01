@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    血海穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/d85c95782579ad94bd247eef977daf3f.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>血海穴</p></li>
+                                                    <li><span>【功效】</span><p>活血通络，祛风止痒。</p></li>
+                                                    <li><span>【主治】</span><p>主气逆腹胀，女子漏下恶血，月事不调。东垣曰：女子漏下恶血，月事不调，暴崩不止，多下水浆之物，皆由饮食不节，或劳伤形体，或素有气不足，灸太阴脾经七壮。</p></li>
+                                                    <li><span>【取穴方法】</span><p>屈膝，髌底内上缘上2寸，当股四头肌内侧头的隆起处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配三阴交穴治月经不调；    配曲池穴治瘾疹。</p></li>
+                                                    <li><span>【按压方式】</span><p>以手指的指腹部位按压，每天坚持点揉两侧血海穴3分钟，力量不宜太大，能感到穴位处有酸胀感即可，要以轻柔为原则。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='b2d3034234ba09bed0163d9da0236f9b', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/d85c95782579ad94bd247eef977daf3f.jpg';
+        window.shareTitle = '血海穴的妙用';
+        window.shareSummary = '活血通络，祛风止痒。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

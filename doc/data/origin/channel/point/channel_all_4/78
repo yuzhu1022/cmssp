@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    三阴交穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/93528e052a3544952a6186b7a823b5a4.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>三阴交穴</p></li>
+                                                    <li><span>【功效】</span><p>益气壮阳，健脾胃，益肝肾，调经带。</p></li>
+                                                    <li><span>【主治】</span><p>主脾胃虚弱，心腹胀满，不思饮食，脾痛身重，四肢不举，腹胀肠鸣，溏泄食不化，痃癖，腹寒，膝内廉痛，小便不利，阴茎痛，足痿不能行，疝气，小便遗，胆虚，食后吐水，梦遗失精，霍乱，手足逆冷，失欠，颊车蹉开，张口不合，男子阴茎痛，元脏发动，脐下痛不可忍，小儿客忤，妇</p></li>
+                                                    <li><span>【取穴方法】</span><p>足内踝尖上3寸，胫骨内侧缘后方。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配足三里穴治肠鸣泄泻；
+配中极穴治月经不调；
+配子宫穴治疗阴挺；
+配大敦穴治疝气；
+配内关穴、神门穴治失眠。</p></li>
+                                                    <li><span>【按压方式】</span><p>用拇指或中指指端按压对侧，一压一放为1次，或先顺时针方向、再逆时针揉三阴交，持续5-10分钟。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='e768c782ef1891d9778209e3d16644e1', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/93528e052a3544952a6186b7a823b5a4.jpg';
+        window.shareTitle = '三阴交穴的妙用';
+        window.shareSummary = '益气壮阳，健脾胃，益肝肾，调经带。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

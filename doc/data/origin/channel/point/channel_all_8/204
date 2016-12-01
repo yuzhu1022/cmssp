@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    中注穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img03.sogoucdn.com/app/a/200574/113f9faeb3feff3f942ebce99ce584fc.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>中注穴</p></li>
+                                                    <li><span>【功效】</span><p>利湿健脾。</p></li>
+                                                    <li><span>【主治】</span><p>主小腹有热，大便坚燥不利，泄气，上下引腰脊痛，目内眦赤痛，女子月事不调。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在下腹部，当脐中下1寸，前正中线旁开0.5寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配肾俞、委中、气海俞治腰背痛；配血海、肾俞、太冲、三阴交、阴交；中极治妇科病、月经不调、卵巢炎、睾丸炎、附件炎。</p></li>
+                                                    <li><span>【按压方式】</span><p>操作以一手或两手四指置阴交、中注穴处，自上向下经关元穴、气海穴到曲骨、横骨，反复按摩。要领：下腹部用力应轻柔。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='10123968364023b58362cfab20250936', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img03.sogoucdn.com/app/a/200574/113f9faeb3feff3f942ebce99ce584fc.jpg';
+        window.shareTitle = '中注穴的妙用';
+        window.shareSummary = '利湿健脾。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

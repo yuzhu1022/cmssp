@@ -1,0 +1,118 @@
+{
+	"uid": "868568021365744",
+	"chans": {
+		"picurl": "http://img01.sogoucdn.com/app/a/200574/e5ff539681562a16e2059c09bd631d87.jpg",
+		"disease": "是动则病，腰痛不可以俯仰，丈夫㿉疝，妇人少腹肿，甚则嗌干，面尘脱色。是主肝所生病者，胸满，呕逆，飧泄，遗溺，闭癃。",
+		"visc": "肝",
+		"function": "",
+		"name": "足厥阴肝经",
+		"shichen": "丑时",
+		"time": "1-3点",
+		"info": "肝足厥阴之脉，起于大指丛毛之际，上循足跗上廉，去内踝一寸，上踝八寸，交出太阴之后，上腘内廉，循股阴，入毛中，环阴器，抵小腹，挟胃，属肝，络胆，上贯膈，布胁肋，循喉咙之后，上入颃颡 ，连目系，上出额，与督脉会于巅。其支者，从目系下颊里，环唇内。其支者，复从肝别，贯膈，上注肺。"
+	},
+	"code": "ok",
+	"IPLOC": "CN1100",
+	"reqtype": "ZYB_Point_List",
+	"encrypt": 0,
+	"mid": "868568021365744",
+	"userIP": "118.144.130.74",
+	"uuid": "f497ebeaa9ec882efc6d8bf81d7aa344",
+	"points": [{
+		"point_id": "01332c4fa4bd57bb778c8946dfd83937",
+		"func": "行气解郁，活血化淤，清肝利胆。",
+		"name": "太冲穴",
+		"name_tone_py": "tài chōng xué",
+		"name_py": "Tai Chong Xue"
+	},
+	{
+		"point_id": "9a1067439c197463a521735e4663445e",
+		"func": "有息风的作用。中医认为各种过敏多多少少都与\u201c风\u201d有关。",
+		"name": "章门穴",
+		"name_tone_py": "zhāng mén xué",
+		"name_py": "Zhang Men Xue"
+	},
+	{
+		"point_id": "edf5a545a72c4bb2fc6451d3d9ca785e",
+		"func": "清肝火、祛湿热。",
+		"name": "曲泉穴",
+		"name_tone_py": "qŭ quán xué",
+		"name_py": "Qu Quan Xue"
+	},
+	{
+		"point_id": "0cf0824282150c6d38a348276a4abac1",
+		"func": "清泄肝胆，通利下焦，舒筋通络。",
+		"name": "中封穴",
+		"name_tone_py": "zhōng fēng xué",
+		"name_py": "Zhong Feng Xue"
+	},
+	{
+		"point_id": "ed8631ff25c53f0fbbd4128b6410b4bc",
+		"func": "舒肝理气，调经止血。",
+		"name": "中都穴",
+		"name_tone_py": "zhōng dū xué",
+		"name_py": "Zhong Du Xue"
+	},
+	{
+		"point_id": "953f39ff29422bf4b254fd01c1cabcd6",
+		"func": "有舒理肝经之气，清利下焦湿热之功。",
+		"name": "足五里穴",
+		"name_tone_py": "zú wŭ lĭ xué",
+		"name_py": "Zu Wu Li Xue"
+	},
+	{
+		"point_id": "d88192365c1f974c572dccc6fa6a42ad",
+		"func": "调经止带，通利下焦。",
+		"name": "阴廉穴",
+		"name_tone_py": "yīn lián xué",
+		"name_py": "Yin Lian Xue"
+	},
+	{
+		"point_id": "457416f68d2f4975f4f265f9658dbea6",
+		"func": "治疗少腹痛,月经不调,应挺,疝气,应茎痛,腿痛等。",
+		"name": "急脉穴",
+		"name_tone_py": "jí mài xué",
+		"name_py": "Ji Mai Xue"
+	},
+	{
+		"point_id": "b418c6fdd3ad7bb604d3d3e6d588b257",
+		"func": "清肝泻热，凉血安神，熄风活络。",
+		"name": "行间穴",
+		"name_tone_py": "háng jiān xué",
+		"name_py": "Hang Jian Xue"
+	},
+	{
+		"point_id": "b3e7b6d9d16058bc7d61d3d49511fc2b",
+		"func": "健脾疏肝，理气活血。",
+		"name": "期门穴",
+		"name_tone_py": "qī mén xué",
+		"name_py": "Qi Men Xue"
+	},
+	{
+		"point_id": "a3667480d84456c0fbc1acf6ebb0afbb",
+		"func": "有疏肝理气、调理经脉的作用。",
+		"name": "蠡沟穴",
+		"name_tone_py": "lí gōu xué",
+		"name_py": "Li Gou Xue"
+	},
+	{
+		"point_id": "f573318d9f87e7bafbf821f81e05b5a9",
+		"func": "回阳救逆，调经通淋。",
+		"name": "大敦穴",
+		"name_tone_py": "dà dūn xué",
+		"name_py": "Da Dun Xue"
+	},
+	{
+		"point_id": "8a4cf37737afff0b856504d05c647754",
+		"func": "散风祛湿，疏通关节。",
+		"name": "膝关穴",
+		"name_tone_py": "xī guān xué",
+		"name_py": "Xi Guan Xue"
+	},
+	{
+		"point_id": "b7104ab01615d71c78fac39f0397b339",
+		"func": "调经止痛，利尿通淋。",
+		"name": "阴包穴",
+		"name_tone_py": "yīn bāo xué",
+		"name_py": "Yin Bao Xue"
+	}]
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    蠡沟穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/15177652c9ead858c738ac5a0692bf9a.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>蠡沟穴</p></li>
+                                                    <li><span>【功效】</span><p>有疏肝理气、调理经脉的作用。</p></li>
+                                                    <li><span>【主治】</span><p>主疝痛，小腹胀满，暴痛如癃闭，数噫，恐悸，少气不足，悒悒不乐，咽中闷如有息肉，背拘急不可俯仰，小便不利，脐下积气如石，足胫寒酸，屈伸难，女子赤白带下，月水不调，气逆则睪丸卒痛，实则挺长，泻之；虚则暴痒，补之。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在小腿内侧，当足内踝尖上5寸，胫骨内侧面的中央。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>蠡沟配阴陵泉、三阴交，有活络止痛的作用，主治胫部痠痛。
+蠡沟配太冲、气海，有疏肝理气止痛的作用，主治疝气及睾丸肿痛。
+蠡沟配百会、关元，悬灸或隔附子饼灸，有温阳举陷升提的作用，主治子宫脱垂。</p></li>
+                                                    <li><span>【按压方式】</span><p>患者取最舒适的体位（坐位、仰卧位均可），用两手拇指腹按压在两侧的蠡沟穴上，按而揉之，局部产生酸、胀、痛感，再屈伸踝关节，加强指压的感觉，然后用揉法放松。每次按揉5-10分钟。急性期每日2～3次。慢性期每日或隔日一次。
+</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='a3667480d84456c0fbc1acf6ebb0afbb', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/15177652c9ead858c738ac5a0692bf9a.jpg';
+        window.shareTitle = '蠡沟穴的妙用';
+        window.shareSummary = '有疏肝理气、调理经脉的作用。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

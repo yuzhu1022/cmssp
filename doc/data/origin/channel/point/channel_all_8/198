@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    然谷穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/4732742cb518bf9ee45b7b01d936b583.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>然谷穴</p></li>
+                                                    <li><span>【功效】</span><p>泻热、消胀、宁神。</p></li>
+                                                    <li><span>【主治】</span><p>主咽内肿，不能纳唾，时不能出唾，心恐惧如人将捕，涎出喘呼少气，足跗肿不得履地，寒疝，小腹胀，上抢胸胁，咳唾血，喉痹，淋沥白浊，胻酸不能久立，足一寒一热，舌纵，烦满，消渴，自汗，盗汗出，痿厥，洞泄，心痛如锥刺，坠堕恶血留内腹中，男子精泄，妇人无子，阴挺出，月</p></li>
+                                                    <li><span>【取穴方法】</span><p>在足内侧缘，足舟骨粗隆下方，赤白肉际。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配肾俞，太溪，关元，三阴交治月经不调；
+配肾俞，志室，气海治遗精；
+配中极，血海，三阴交治阴痒。</p></li>
+                                                    <li><span>【按压方式】</span><p>首先要准确地找到然谷穴，用大拇指用力往下按，按下去后马上放松。当大拇指按下去的时候，穴位周围乃至整个腿部的肾经上都会有强烈的酸胀感，但随着手指的放松，酸胀感会马上消退。等酸胀感消退后，再按上面的方法按，如此重复10～20次。双脚上的然谷穴都要按。如果是自己给自己做，则两个穴位可以同时进行。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='e1277c011f63082b57f513c5c31b2968', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/4732742cb518bf9ee45b7b01d936b583.jpg';
+        window.shareTitle = '然谷穴的妙用';
+        window.shareSummary = '泻热、消胀、宁神。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

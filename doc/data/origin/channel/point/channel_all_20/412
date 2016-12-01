@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    仆参穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/326cdb08c71828046af89012bef4bc8c.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>仆参穴</p></li>
+                                                    <li><span>【功效】</span><p>益气壮阳，舒筋活络，强壮腰膝。</p></li>
+                                                    <li><span>【主治】</span><p>主足痿，失履不收，足跟痛不得履地，霍乱转筋，吐逆，尸厥癫痫，狂言见鬼，脚气膝肿。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在足外侧部，外踝后下方，昆仑直下，跟骨外侧，赤白肉际处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配太溪穴治足跟痛。</p></li>
+                                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='6cbb695f5a0ac8ec57a46e709d2afd87', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/326cdb08c71828046af89012bef4bc8c.jpg';
+        window.shareTitle = '仆参穴的妙用';
+        window.shareSummary = '益气壮阳，舒筋活络，强壮腰膝。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

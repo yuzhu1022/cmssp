@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">中医论症</string>
+    <string name="app_enter">开始体验</string>
+    <string name="disease">疾病防治</string>
+    <string name="massagePoint">经络</string>
+    <string name="drugMaterial">药方药材</string>
+    <string name="cmSense">中医常识</string>
+    <string name="zhengzhuang">主要症状：</string>
+    <string name="zhiliaosilu">治疗思路：</string>
+    <string name="changyongjingfang">常用经方：</string>
+</resources>

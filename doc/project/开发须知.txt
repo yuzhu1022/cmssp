@@ -1,0 +1,19 @@
+目前共设计四个模块：
+常见症状与治疗
+穴位按摩
+药方药材
+中医资讯
+
+完整模块开发流程 ：
+
+1.设计表 
+2.用fiddler抓取数据，整理成你设计的结构，并导入数据 
+3.写好php模块逻辑 
+4 写android
+
+表结构放在server/trunk/PhalApi/Data
+
+php 模块 一般需要新建 三个类分别放置在Cmssp目录下的 /Api /Domain /Model下 ，工具模块放在common下。
+
+查询所有PHP接口列表，直接访问链接
+http://2.niubility.applinzi.com/server/trunk/PhalApi/Public/cmssp/listAllApis.php

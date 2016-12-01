@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    至阴穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/ea98eb4c7633992e0a76bb4155b3a867.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>至阴穴</p></li>
+                                                    <li><span>【功效】</span><p>正胎催产，理气活血，清头明目。</p></li>
+                                                    <li><span>【主治】</span><p>主目生翳，鼻塞头重，风寒从足小指起，脉痹上下，带胸胁痛无常处，转筋，寒疟，汗不出，烦心，足下热，小便不利，失精，目痛，大眦痛。根结篇云：太阳根于至阴，结于命门；命门者，目也。</p></li>
+                                                    <li><span>【取穴方法】</span><p>足小趾外侧趾甲根角旁0.1寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配太冲、百会治头痛。</p></li>
+                                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='7b5f6b0d4c1a31e72dab948d0f6d0898', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/ea98eb4c7633992e0a76bb4155b3a867.jpg';
+        window.shareTitle = '至阴穴的妙用';
+        window.shareSummary = '正胎催产，理气活血，清头明目。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

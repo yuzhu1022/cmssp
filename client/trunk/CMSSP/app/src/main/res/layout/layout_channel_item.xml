@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    style="@style/baseTheme"
+    android:paddingBottom="4dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical">
+        <TextView
+            style="@style/style_channel_title"
+            android:id="@+id/channelName"
+            android:text="手太阴肺经" />
+
+        <TextView
+            style="@style/style_channel_time"
+            android:text="肺(寅时3-5点)"
+            android:id="@+id/channelTime"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/channelImage"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="300dp" />
+
+    <com.ox.widgets.CustomGrideView
+        android:id="@+id/points"
+        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:stretchMode="spacingWidthUniform"
+        android:paddingTop="5dp"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="4dp"
+        ></com.ox.widgets.CustomGrideView>
+
+</LinearLayout>

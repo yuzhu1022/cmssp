@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    巨骨穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/45bf3c7393258e580eaad21232e92b75.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>巨骨穴</p></li>
+                                                    <li><span>【功效】</span><p>消肿散结。</p></li>
+                                                    <li><span>【主治】</span><p>主惊痫，破心吐血，臂膊痛，胸中有瘀血，肩臂不得屈伸。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在肩上部，当锁骨肩峰端与肩胛冈之间凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>巨骨配前谷，有舒通经络作用，主治臂不举；
+巨骨配孔最、尺泽、鱼际，有降气止咳，清热止血作用，主治咯血。</p></li>
+                                                    <li><span>【按压方式】</span><p>肩臂拘挛时可用对侧手的中指指腹按揉患侧巨骨，直至患侧感到热或局部有酸麻感，能够缓解肩臂拘挛带来的不适。经常用中指指腹按摩巨骨，每次1~3分钟，对咽喉和耳部非常有好处，能缓解咽喉肿痛，预防听力减退。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='ce10d988aca8d66eca62976fec7da04a', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/45bf3c7393258e580eaad21232e92b75.jpg';
+        window.shareTitle = '巨骨穴的妙用';
+        window.shareSummary = '消肿散结。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

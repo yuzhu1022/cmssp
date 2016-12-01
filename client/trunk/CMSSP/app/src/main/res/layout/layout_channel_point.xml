@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    style="@style/baseTheme"
+    android:background="@color/peachpuff"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/style_point_content"
+        android:id="@+id/pointName"
+        android:gravity="center"
+        android:text="迎香穴"/>
+
+    <TextView
+        style="@style/style_point_tone_content"
+        android:text="yíng xiāng xué"
+        android:gravity="center"
+        android:id="@+id/pointTone"
+        android:layout_below="@id/channelName"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    听宫穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img03.sogoucdn.com/app/a/200574/d34e025c3e30e69d82c4c8349cc5f5a3.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>听宫穴</p></li>
+                                                    <li><span>【功效】</span><p>聪耳开窍。 </p></li>
+                                                    <li><span>【主治】</span><p>主失音，癫疾，心腹满，聤耳，耳聋如物填塞无闻，耳中嘈嘈憹憹蝉鸣。</p></li>
+                                                    <li><span>【取穴方法】</span><p>耳屏前，下颌骨髁状突的后方，张口时呈凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配翳风穴、中渚治耳鸣、耳聋。</p></li>
+                                                    <li><span>【按压方式】</span><p>用双手中指指腹按揉听宫穴穴位，由上而下按摩，每次按摩2分钟。听宫穴具有缓解眼部疲劳的作用，建议每日多按揉几次。如果出现耳鸣症状，可用两手拇指端分别按揉两侧听宫穴，力度以感觉酸胀为佳。按揉时注意张开嘴，每穴1分钟。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='810f68b94835c1ae1734a6f67f439888', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img03.sogoucdn.com/app/a/200574/d34e025c3e30e69d82c4c8349cc5f5a3.jpg';
+        window.shareTitle = '听宫穴的妙用';
+        window.shareSummary = '聪耳开窍。 ';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

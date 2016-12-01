@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    翳明穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/3a519c86d257fe7b2cfa4a9f33dd4b32.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>翳明穴</p></li>
+                                                    <li><span>【功效】</span><p>明目聪耳，宁心安神</p></li>
+                                                    <li><span>【主治】</span><p>目疾，耳鸣，失眠。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在项部，当翳风后1寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>1、翳明穴配球后穴、睛明穴缓解治疗早期白内障；2、配印堂、内关、三阴交，主治失眠；3、配风池、上睛明、球后，主治视神经萎缩。</p></li>
+                                                    <li><span>【按压方式】</span><p>将食指、中指并拢，用两指指尖点揉翳明穴100次，具有明目安神的功效，每天坚持按揉可以预防治疗眼部疾患。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='867ff26ac2ee0c84478ee3f4cab7fdfc', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/3a519c86d257fe7b2cfa4a9f33dd4b32.jpg';
+        window.shareTitle = '翳明穴的妙用';
+        window.shareSummary = '明目聪耳，宁心安神';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

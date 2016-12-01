@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    解溪穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/0e3174bf2fd923a610d2a8ffba06de27.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>解溪穴</p></li>
+                                                    <li><span>【功效】</span><p>理脾，化湿，清胃热。</p></li>
+                                                    <li><span>【主治】</span><p>主风，面浮肿，颜黑，厥气上冲，腹胀，大便下重，瘛惊，膝股胻肿，转筋，目眩，头痛，癫疾，烦心悲泣，霍乱，头风面赤，目赤，眉攒疼不可忍。</p></li>
+                                                    <li><span>【取穴方法】</span><p>足背踝关节横纹中央凹陷处，当拇长伸肌踺与趾长伸肌腱之间。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配昆仑、太溪治疗踝部痛；
+配商丘、血海治疗腹张。</p></li>
+                                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='75f4eb287933eb9c33b37ca54fc0b3c1', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/0e3174bf2fd923a610d2a8ffba06de27.jpg';
+        window.shareTitle = '解溪穴的妙用';
+        window.shareSummary = '理脾，化湿，清胃热。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

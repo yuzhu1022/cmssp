@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    承灵穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img03.sogoucdn.com/app/a/200574/6ed74d690c966299990a6ab22db84971.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>承灵穴</p></li>
+                                                    <li><span>【功效】</span><p>祛风，通窍。</p></li>
+                                                    <li><span>【主治】</span><p>主脑风头痛，恶风寒，鼽衄鼻窒，喘息不利。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在头部，当前发际上4寸，头正中线旁开2.25寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配风池穴、风门穴、后溪穴治鼻出血。</p></li>
+                                                    <li><span>【按压方式】</span><p>双手中指同时出力揉按穴位，有刺痛的感觉，每天早晚揉按一次，先中指左上右下，后右上左下。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='2461c6d1d64cb42367bd0e90afe2a96b', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img03.sogoucdn.com/app/a/200574/6ed74d690c966299990a6ab22db84971.jpg';
+        window.shareTitle = '承灵穴的妙用';
+        window.shareSummary = '祛风，通窍。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

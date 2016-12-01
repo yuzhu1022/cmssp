@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    兑端穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img03.sogoucdn.com/app/a/200574/207c65346e20962ef1015f4a4e88df39.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>兑端穴</p></li>
+                                                    <li><span>【功效】</span><p>开窍醒脑，宁神醒脑，生津止渴。</p></li>
+                                                    <li><span>【主治】</span><p>主癫疾吐沫，小便黄，舌干消渴，衄血不止，唇吻强，齿龈痛，鼻塞，痰涎，口噤鼓颔，炷如大麦。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在面部，当上唇的尖端，人中沟下端的皮肤与唇的移行部。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配本神穴治癫痫呕沫；配目窗穴、正营穴、耳门穴治唇吻强，止齿龋痛。</p></li>
+                                                    <li><span>【按压方式】</span><p>用指尖点压兑端穴后轻轻划圈按揉，可以刺激唇部周边皮肤的运动，令双唇紧致平滑，唇纹淡化。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='0e2d4ad2469da9d564f82a5035768893', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img03.sogoucdn.com/app/a/200574/207c65346e20962ef1015f4a4e88df39.jpg';
+        window.shareTitle = '兑端穴的妙用';
+        window.shareSummary = '开窍醒脑，宁神醒脑，生津止渴。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    style="@style/baseTheme"
+    android:paddingBottom="4dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/style_text_title"
+        android:text="感冒"
+        android:id="@+id/disease_desc_dname" />
+
+    <ImageView
+        android:id="@+id/diseaseSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_text_content"
+            android:text="@string/zhengzhuang"
+            android:id="@+id/textView" />
+
+        <TextView
+            style="@style/style_text_content"
+            android:text="出汗受风/受凉 等 导致  头疼、发热、汗出、恶风 等症状"
+            android:id="@+id/disease_desc_symptom"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_text_content"
+            android:text="@string/zhiliaosilu"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textView2" />
+
+        <TextView
+            style="@style/style_text_content"
+            android:text="解肌 保胃气 补津液 热则凉之 凉则温之"
+            android:id="@+id/disease_desc_cure"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/style_text_content"
+            android:text="@string/changyongjingfang"
+            android:id="@+id/textView3" />
+
+        <TextView
+            style="@style/style_text_content"
+            android:text="桂枝汤 麻黄汤 葛根汤 银翘散 桑菊饮 麻杏甘石汤 等"
+            android:id="@+id/disease_desc_material"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+    </RelativeLayout>
+
+</LinearLayout>

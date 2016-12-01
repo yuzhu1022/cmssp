@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    照海穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/37858dc511998630351946792f48cb70.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>照海穴</p></li>
+                                                    <li><span>【功效】</span><p>吸热生气。</p></li>
+                                                    <li><span>【主治】</span><p>主咽干，心悲不乐，四肢懈惰，久疟，卒疝，呕吐嗜卧，大风默默不知所痛，视如见星，小腹痛，妇女经逆，四肢淫泺，阴暴跳起或痒，漉清汁，小腹偏痛，淋，阴挺出，月水不调。洁古曰：痫病夜发灸阴跷，照海穴也。</p></li>
+                                                    <li><span>【取穴方法】</span><p>内踝高点正下缘凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配列缺主治咽喉肿痛；
+配中极、三阴交主治癃闭；
+配肾俞、关元、三阴交主治月经不调。</p></li>
+                                                    <li><span>【按压方式】</span><p>按压时，感到酸、麻、胀就可以。时间也不易太长，5&mdash;10分钟即可。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='25754018ce0283c4895e21a8f8c0d80f', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/37858dc511998630351946792f48cb70.jpg';
+        window.shareTitle = '照海穴的妙用';
+        window.shareSummary = '吸热生气。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

@@ -1,0 +1,83 @@
+{
+	"uid": "868568021365744",
+	"chans": {
+		"picurl": "http://img04.sogoucdn.com/app/a/200574/afff6ed7d97b494d2fe21cdc1094dda3.jpg",
+		"disease": "是动则病，益干，心痛，渴而欲饮，是为臂厥。是主心所生病者：目黄，胁痛，臑臂内后廉痛、厥，掌中热。",
+		"visc": "心",
+		"function": "",
+		"name": "手少阴心经",
+		"shichen": "午时",
+		"time": "11-13点",
+		"info": "心手少阴之脉，起于心中，出属心系，下膈，络小肠。其支者：从心系，上夹咽，系目系。其直者：复从心系，却上肺，下出腋下，下循臑内后廉，行太阴、心主之后，下肘内，循臂内后廉，抵掌后锐骨之端，入掌内后廉，循小指之内，出其端。"
+	},
+	"code": "ok",
+	"IPLOC": "CN1100",
+	"reqtype": "ZYB_Point_List",
+	"encrypt": 0,
+	"mid": "868568021365744",
+	"userIP": "118.144.130.74",
+	"uuid": "242a6e26688d49a262ab7b7f5f56b079",
+	"points": [{
+		"point_id": "537a8b321a43500ada5fef1235201f9b",
+		"func": "生发心气，清热熄风，醒神开窍。",
+		"name": "少冲穴",
+		"name_tone_py": "shào chōng xué",
+		"name_py": "Shao Chong Xue"
+	},
+	{
+		"point_id": "0d966ada0b1bfd229f7b097d78c02805",
+		"func": "发散心火。",
+		"name": "少府穴",
+		"name_tone_py": "shào fŭ xué",
+		"name_py": "Shao Fu Xue"
+	},
+	{
+		"point_id": "6187333888c7599d224cdb16b87f942e",
+		"func": "补益心气，安定心神。",
+		"name": "神门穴",
+		"name_tone_py": "shén mén xué",
+		"name_py": "Shen Men Xue"
+	},
+	{
+		"point_id": "7976170eac677f2b1c250a819d3f9770",
+		"func": "宽胸宁神。",
+		"name": "极泉穴",
+		"name_tone_py": "jí quán xué",
+		"name_py": "Ji Quan Xue"
+	},
+	{
+		"point_id": "f4775022c43f971e85818cd83d6003ea",
+		"func": "运化心血。",
+		"name": "青灵穴",
+		"name_tone_py": "qīng líng xué",
+		"name_py": "Qing Ling Xue"
+	},
+	{
+		"point_id": "b2ee1a50d4a68bc2468bec6f94624d8d",
+		"func": "通经活络、养血安神",
+		"name": "通里穴",
+		"name_tone_py": "tōng lĭ xué",
+		"name_py": "Tong Li Xue"
+	},
+	{
+		"point_id": "c26a4b2a8e2ba1db8bb9db9c6731af3c",
+		"func": "理气通络，益心安神，降浊升清。",
+		"name": "少海穴",
+		"name_tone_py": "shào hăi xué",
+		"name_py": "Shao Hai Xue"
+	},
+	{
+		"point_id": "f060d32d426afb5f115c4fad1a4d77f9",
+		"func": "安神，宁心，通络。",
+		"name": "灵道穴",
+		"name_tone_py": "líng dào xué",
+		"name_py": "Ling Dao Xue"
+	},
+	{
+		"point_id": "db52442b22740dca7cd102819062e5a1",
+		"func": "沟通心肾。",
+		"name": "阴郄穴",
+		"name_tone_py": "yīn qiè xué",
+		"name_py": "Yin Xi Xue"
+	}]
+}

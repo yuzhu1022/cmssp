@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    日月穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/0bade48b5b234c649e680b399432ae18.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>日月穴</p></li>
+                                                    <li><span>【功效】</span><p>收募胆经气血。</p></li>
+                                                    <li><span>【主治】</span><p>主太息善悲，小腹热欲走，多唾，言语不正，四肢不收。</p></li>
+                                                    <li><span>【取穴方法】</span><p>乳头直下，第7肋间隙</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配胆俞治胆虚；
+配内关、中脘治呕吐、纳呆；
+配期门、阳陵泉治胆石症；
+配支沟、丘墟治胁胀痛；
+配胆俞、腕骨治黄疸。</p></li>
+                                                    <li><span>【按压方式】</span><p>顺时针方向按揉2分钟，手法用力宜适中，以局部有酸胀感和轻度温热感为度。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='a050d9fbc8aee3758ab5c00326691984', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/0bade48b5b234c649e680b399432ae18.jpg';
+        window.shareTitle = '日月穴的妙用';
+        window.shareSummary = '收募胆经气血。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

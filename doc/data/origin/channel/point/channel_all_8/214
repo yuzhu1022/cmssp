@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    神藏穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/b64c1102115b4754ca900bada73bc736.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>神藏穴</p></li>
+                                                    <li><span>【功效】</span><p>宽胸、利气。</p></li>
+                                                    <li><span>【主治】</span><p>主呕吐，咳逆喘不得息，胸满不嗜食。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在胸部，当第2肋间隙，前正中线旁开2寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配天突、内关、太冲治梅核气；配心俞、玉堂治胸痹、噎嗝、冠心病、心肌梗塞。</p></li>
+                                                    <li><span>【按压方式】</span><p>咳痰时，一边吐气一边强压肺俞穴6秒，重复三次，就会感觉喉咙处的异物消失了。小孩不能按压太强，应该增加次数。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='440fa584e1a1af86ff88498dd37f46ac', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/b64c1102115b4754ca900bada73bc736.jpg';
+        window.shareTitle = '神藏穴的妙用';
+        window.shareSummary = '宽胸、利气。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

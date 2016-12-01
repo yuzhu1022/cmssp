@@ -1,0 +1,571 @@
+{
+  "ret":200,
+  "data":{
+    "pageNumber":0,
+    "channelEntityList":[
+      {
+        "id":1,
+        "pic": "http://img04.sogoucdn.com/app/a/200574/3b86bbf038dae7bb874708fc06cde0bf.jpg",
+        "effect": "是动则病，肺胀满，膨膨而喘咳，缺盆中痛，甚则交两手而瞀，此为臂厥。 是主肺所生病者，咳，上气，喘喝，烦心，胸满，臑臂内前廉痛厥，掌中热。 气盛有余，则肩背痛，风寒汗出中风，小便数而欠；气虚则肩背痛、寒，少气不足以息，溺色变。",
+        "visc": "肺",
+        "name": "手太阴肺经",
+        "shichen": "寅时",
+        "time": "3-5点",
+        "ext_data": "肺手太阴之脉，起于中焦,下络大肠,还循胃口,上隔属肺。从肺系，横出腋下,下循臑内，行少阴、心主之前，下肘中，循臂内上骨下廉，入寸口，上鱼，循鱼际，出大指之端。 其支者：从腕后，直出次指内廉，出其端。",
+        "points": [{
+          "id": "1",
+          "effect": "俱活血之妙。中医讲治风先治血，血行风自灭。中医认为各种过敏多多少少都与\u201c风\u201d有关。",
+          "name": "尺泽穴",
+          "tone": "chĭ zé xué",
+          "name_py": "Chi Ze Xue"
+        },
+          {
+            "id": "2",
+            "effect": "宣肺解表，通经活络，通调任脉。",
+            "name": "列缺穴",
+            "tone": "liè quē xué",
+            "name_py": "Lie Que Xue"
+          },
+          {
+            "id": "3",
+            "effect": "解表清热，通利咽喉，苏厥开窍。",
+            "name": "少商穴",
+            "tone": "shào shāng xué",
+            "name_py": "Shao Shang Xue"
+          },
+          {
+            "id": "4",
+            "effect": "散化肺经地部水湿，向天部输送肺气。",
+            "name": "太渊穴",
+            "tone": "tài yuān xué",
+            "name_py": "Tai Yuan Xue"
+          },
+          {
+            "id": "5",
+            "effect": "清宣肺气，清热利咽。",
+            "name": "鱼际穴",
+            "tone": "yú jì xué",
+            "name_py": "Yu Ji Xue"
+          },
+          {
+            "id": "6",
+            "effect": "宣肺、宁心、宽胸、和胃。\r\n\r\n",
+            "name": "侠白穴",
+            "tone": "xiá bái xué",
+            "name_py": "Xia Bai Xue"
+          },
+          {
+            "id": "7",
+            "effect": "肃降肺气，和胃利水，止咳平喘，清泻肺热，健脾补气。",
+            "name": "中府穴",
+            "tone": "zhōng fŭ xué",
+            "name_py": "Zhong Fu Xue"
+          },
+          {
+            "id": "8",
+            "effect": "清宣肺气，泻四肢之热邪。",
+            "name": "云门穴",
+            "tone": "yún mén xué",
+            "name_py": "Yun Men Xue"
+          },
+          {
+            "id": "9",
+            "effect": "清宣肺气，止衄，明目。",
+            "name": "天府穴",
+            "tone": "tiān fŭ xué",
+            "name_py": "Tian Fu Xue"
+          },
+          {
+            "id": "10",
+            "effect": "清热、发表、利咽。",
+            "name": "孔最穴",
+            "tone": "kŏng zuì xué",
+            "name_py": "Kong Zui Xue"
+          },
+          {
+            "id": "11",
+            "effect": "降浊分清。",
+            "name": "经渠穴",
+            "tone": "jīng qú xué",
+            "name_py": "Jing Qu Xue"
+          }]
+      },
+      {
+        "id":2,
+        "pic": "http://img03.sogoucdn.com/app/a/200574/3c4b9f94a694ac32d4f25508de399a0f.jpg",
+        "effect": "是动则病，齿痛，颈肿。是主津所生病者：目黄，口干，鼽衄，喉痹，肩前臑痛，大指次指痛不可用。气有余，则当脉所过者热肿；虚，则寒栗不复。",
+        "visc": "大肠",
+        "name": "手阳明大肠经",
+        "shichen": "卯时",
+        "time": "5-7点",
+        "ext_data": "大肠手阳明之脉，起于大指次指之端，循指上廉，出合谷两骨之间，上入两筋之中，循臂上廉，入肘外廉，上臑外前廉，上肩，出颙骨之前廉，上出于柱骨之会上，下入缺盆，络肺，下隔，属大肠。其支者:从缺盆上颈，贯颊，入下齿中；还出夹口，交人中-左之右，右之左，上夹鼻孔。",
+        "points": [{
+          "id": "12",
+          "effect": "疏散风热，通利鼻窍。",
+          "name": "迎香穴",
+          "tone": "yíng xiāng xué",
+          "name_py": "Ying Xiang Xue"
+        },
+          {
+            "id": "13",
+            "effect": "镇静止痛，通经活经，清热解表。",
+            "name": "合谷穴",
+            "tone": "hé gŭ xué",
+            "name_py": "He Gu Xue"
+          },
+          {
+            "id": "14",
+            "effect": "转化脾土之热，燥化大肠经湿热，提供天部阳热之气。",
+            "name": "曲池穴",
+            "tone": "qŭ chí xué",
+            "name_py": "Qu Chi Xue"
+          },
+          {
+            "id": "15",
+            "effect": "疏泄阳明经热。",
+            "name": "下廉穴",
+            "tone": "xià lián xué",
+            "name_py": "Xia Lian Xue"
+          },
+          {
+            "id": "16",
+            "effect": "气化大肠经体内水液，向大肠经体表经脉输送高温水湿气体。",
+            "name": "商阳穴",
+            "tone": "shāng yáng xué",
+            "name_py": "Shang Yang Xue"
+          },
+          {
+            "id": "17",
+            "effect": "调理肠胃，通经活络。",
+            "name": "上廉穴",
+            "tone": "shàng lián xué",
+            "name_py": "Shang Lian Xue"
+          },
+          {
+            "id": "18",
+            "effect": "解表，清热，利咽。",
+            "name": "二间穴",
+            "tone": "èr jiān xué",
+            "name_py": "Er Jian Xue"
+          },
+          {
+            "id": "19",
+            "effect": "理气散结，通经活络。",
+            "name": "手五里穴",
+            "tone": "shŏu wŭ lĭ xué",
+            "name_py": "Shou Wu Li Xue"
+          },
+          {
+            "id": "20",
+            "effect": "治疗肘臂部痪痛、麻木、拘挛、瘰疬等。",
+            "name": "偏历穴",
+            "tone": "piān lì xué",
+            "name_py": "Pian Li Xue"
+          },
+          {
+            "id": "21",
+            "effect": "消肿散结。",
+            "name": "巨骨穴",
+            "tone": "jù gŭ xué",
+            "name_py": "Ju Gu Xue"
+          },
+          {
+            "id": "22",
+            "effect": "利咽喉，清肺气。\r\n\r\n",
+            "name": "天鼎穴",
+            "tone": "tiān dĭng xué",
+            "name_py": "Tian Ding Xue"
+          },
+          {
+            "id": "23",
+            "effect": "治疗头痛、面肿、肩臂酸痛、肠鸣腹痛等。",
+            "name": "温溜穴",
+            "tone": "wēn liū xué",
+            "name_py": "Wen Liu Xue"
+          },
+          {
+            "id": "24",
+            "effect": "消肿散结，清咽开音。\r\n\r\n",
+            "name": "扶突穴",
+            "tone": "fú tū xué",
+            "name_py": "Fu Tu Xue"
+          },
+          {
+            "id": "25",
+            "effect": "开关通窍。\r\n",
+            "name": "口禾髎穴",
+            "tone": "kŏu hé liáo xué",
+            "name_py": "Kou He Liao Xue"
+          },
+          {
+            "id": "26",
+            "effect": "清热明目，通经通络。",
+            "name": "臂臑穴",
+            "tone": "bì nào xué",
+            "name_py": "Bi Nao Xue"
+          },
+          {
+            "id": "27",
+            "effect": "祛风泄火。",
+            "name": "阳溪穴",
+            "tone": "yáng xī xué",
+            "name_py": "Yang Xi Xue"
+          },
+          {
+            "id": "28",
+            "effect": "通经活络，清热明目，调理肠胃。",
+            "name": "手三里穴",
+            "tone": "shŏu sān lĭ xué",
+            "name_py": "Shou San Li Xue"
+          },
+          {
+            "id": "29",
+            "effect": "疏散经络风湿，清泄阳明气火，通利关节，祛邪解热。",
+            "name": "肩髃穴",
+            "tone": "jiān yú xué",
+            "name_py": "Jian Yu Xue"
+          },
+          {
+            "id": "30",
+            "effect": "泄热利咽，调腑通便。",
+            "name": "三间穴",
+            "tone": "sān jiān xué",
+            "name_py": "San Jian Xue"
+          },
+          {
+            "id": "31",
+            "effect": "舒筋活络。",
+            "name": "肘髎穴",
+            "tone": "zhŏu liáo xué",
+            "name_py": "Zhou Liao Xue"
+          }]
+      },
+      {
+        "id":3,
+        "pic": "http://img01.sogoucdn.com/app/a/200574/00dcadca455d31da5dcb4ac314b05aac.jpg",
+        "effect": "是动则病，洒洒振寒，善伸，数欠，颜黑，病至则恶人与火，闻木声则惕然而惊，心欲动，独闭户塞牖而处；甚则欲上高而歌，弃衣而走；贲响腹胀，是为骭厥。是主血所生病者：狂，疟，温淫，汗出，鼽衄，口歪，唇胗，颈肿，喉痹，大腹水肿，膝髌肿痛；循膺、乳、气街、股、伏兔、骭外廉、足跗上皆痛，中指不用。气盛，则身以前皆热，其有余于胃，则消谷善饥，溺色黄；气不足，则身以前皆寒栗，胃中寒，则胀满。",
+        "visc": "胃",
+        "name": "足阳明胃经",
+        "shichen": "辰时",
+        "time": "7-9点",
+        "ext_data": "胃足阳明之脉，起于鼻，交頞中，旁约太阳之脉，下循鼻外，入上齿中，还出夹口，环唇，下交承浆，却循颐后下廉，出大迎，循颊车，上耳前，过客主人，循发际，至额颅。其支者：从大迎前，下人迎，循喉咙，入缺盆，下膈，属胃，络脾。其直者：从缺盆下乳内廉，下夹脐，入气街中。其支者：起于胃口，下循腹里，下至气街中而合。以下髀关，抵伏兔，下膝髌中，下循胫外廉，下足跗，入中指内间。其支者：下膝三寸而别，下入中指外间。其支者：别跗上，入大指间，出其端。",
+        "points": [{
+          "id": "32",
+          "effect": "具有调理脾胃、补中益气、通经活络、疏风化湿、扶正祛邪之功能。",
+          "name": "足三里穴",
+          "tone": "zú sān lĭ xué",
+          "name_py": "Zu San Li Xue"
+        },
+          {
+            "id": "33",
+            "effect": "止咳平喘，健脾化痰，和胃降逆，开窍。",
+            "name": "丰隆穴",
+            "tone": "fēng lóng xué",
+            "name_py": "Feng Long Xue"
+          },
+          {
+            "id": "34",
+            "effect": "利水通淋消肿，调经止痛。",
+            "name": "水道穴",
+            "tone": "shuĭ dào xué",
+            "name_py": "Shui Dao Xue"
+          },
+          {
+            "id": "35",
+            "effect": "通乳化瘀，宣肺利气。",
+            "name": "乳根穴",
+            "tone": "rŭ gēn xué",
+            "name_py": "Ru Gen Xue"
+          },
+          {
+            "id": "36",
+            "effect": "疏风清热，明目止痛。",
+            "name": "承泣穴",
+            "tone": "chéng qì xué",
+            "name_py": "Cheng Qi Xue"
+          },
+          {
+            "id": "37",
+            "effect": "接收胃经气血并分流胸腹。",
+            "name": "人迎穴",
+            "tone": "rén yíng xué",
+            "name_py": "Ren Ying Xue"
+          },
+          {
+            "id": "38",
+            "effect": "散发脾热，向天部提供水湿。",
+            "name": "四白穴",
+            "tone": "sì bái xué",
+            "name_py": "Si Bai Xue"
+          },
+          {
+            "id": "39",
+            "effect": "疏调肠腑、理气行滞、消食。",
+            "name": "天枢穴",
+            "tone": "tiān shū xué",
+            "name_py": "Tian Shu Xue"
+          },
+          {
+            "id": "40",
+            "effect": "分流胃经地部经水，为阳跷脉提供阳热之气。",
+            "name": "地仓穴",
+            "tone": "dì cāng xué",
+            "name_py": "Di Cang Xue"
+          },
+          {
+            "id": "41",
+            "effect": "调和肠胃，通经活络。",
+            "name": "上巨虚穴",
+            "tone": "shàng jù xū xué",
+            "name_py": "Shang Ju Xu Xue"
+          },
+          {
+            "id": "42",
+            "effect": "清胃热，化积滞。",
+            "name": "内庭穴",
+            "tone": "nèi tíng xué",
+            "name_py": "Nei Ting Xue"
+          },
+          {
+            "id": "43",
+            "effect": "利口舌咽喉。",
+            "name": "下关穴",
+            "tone": "xià guān xué",
+            "name_py": "Xia Guan Xue"
+          },
+          {
+            "id": "44",
+            "effect": "将冲脉之气渗灌胃经。",
+            "name": "气冲穴",
+            "tone": "qì chōng xué",
+            "name_py": "Qi Chong Xue"
+          },
+          {
+            "id": "45",
+            "effect": "祛风湿，通经活络，疏风散寒，理气消肿，利关节止痛。",
+            "name": "犊鼻穴",
+            "tone": "dú bí xué",
+            "name_py": "Du Bi Xue"
+          },
+          {
+            "id": "46",
+            "effect": "调肠，利气，固肾气。",
+            "name": "大巨穴",
+            "tone": "dà jù xué",
+            "name_py": "Da Ju Xue"
+          },
+          {
+            "id": "47",
+            "effect": "祛风泄火，止痛明目。",
+            "name": "头维穴",
+            "tone": "tóu wéi xué",
+            "name_py": "Tou Wei Xue"
+          },
+          {
+            "id": "48",
+            "effect": "理脾，化湿，清胃热。",
+            "name": "解溪穴",
+            "tone": "jiĕ xī xué",
+            "name_py": "Jie Xi Xue"
+          },
+          {
+            "id": "49",
+            "effect": "理气活血止痛。",
+            "name": "缺盆穴",
+            "tone": "quē pén xué",
+            "name_py": "Que Pen Xue"
+          },
+          {
+            "id": "50",
+            "effect": "和胃化痰，通络宁神。",
+            "name": "冲阳穴",
+            "tone": "chōng yáng xué",
+            "name_py": "Chong Yang Xue"
+          },
+          {
+            "id": "51",
+            "effect": "祛风，利口齿。",
+            "name": "大迎穴",
+            "tone": "dà yíng xué",
+            "name_py": "Da Ying Xue"
+          },
+          {
+            "id": "52",
+            "effect": "冷却循颈项上炎的火热之气并为天部提供水湿阳气。",
+            "name": "水突穴",
+            "tone": "shuĭ tū xué",
+            "name_py": "Shui Tu Xue"
+          },
+          {
+            "id": "53",
+            "effect": "冷却循颈项上炎的火热之气并为天部提供水湿阳气。",
+            "name": "气舍穴",
+            "tone": "qì shĕ xué",
+            "name_py": "Qi She Xue"
+          },
+          {
+            "id": "54",
+            "effect": "燥化胃经水湿，向天部输送阳热之气。",
+            "name": "气户穴",
+            "tone": "qì hù xué",
+            "name_py": "Qi Hu Xue"
+          },
+          {
+            "id": "55",
+            "effect": "存储脾土微粒，燥化脾土水湿。",
+            "name": "库房穴",
+            "tone": "kù fáng xué",
+            "name_py": "Ku Fang Xue"
+          },
+          {
+            "id": "56",
+            "effect": "散化胸部之热，为胸部提供阳热之气。",
+            "name": "屋翳穴",
+            "tone": "wū yì xué",
+            "name_py": "Wu Yi Xue"
+          },
+          {
+            "id": "57",
+            "effect": "调肠胃，利气，清热。",
+            "name": "条口穴",
+            "tone": "tiáo kŏu xué",
+            "name_py": "Tiao Kou Xue"
+          },
+          {
+            "id": "58",
+            "effect": "冷却循颈项上炎的火热之气并为天部提供水湿阳气。",
+            "name": "膺窗穴",
+            "tone": "yīng chuāng xué",
+            "name_py": "Ying Chuang Xue"
+          },
+          {
+            "id": "59",
+            "effect": "冷却循颈项上炎的火热之气并为天部提供水湿阳气。",
+            "name": "不容穴",
+            "tone": "bù róng xué",
+            "name_py": "Bu Rong Xue"
+          },
+          {
+            "id": "60",
+            "effect": "祛风除湿，理气和胃，通经活络。",
+            "name": "梁丘穴",
+            "tone": "liáng qiū xué",
+            "name_py": "Liang Qiu Xue"
+          },
+          {
+            "id": "61",
+            "effect": "理气和胃，降逆止呕。",
+            "name": "承满穴",
+            "tone": "chéng măn xué",
+            "name_py": "Cheng Man Xue"
+          },
+          {
+            "id": "62",
+            "effect": "理气，提胞，治疝。",
+            "name": "归来穴",
+            "tone": "guī lái xué",
+            "name_py": "Gui Lai Xue"
+          },
+          {
+            "id": "63",
+            "effect": "祛寒湿，利腰膝。",
+            "name": "伏兔穴",
+            "tone": "fú tù xué",
+            "name_py": "Fu Tu Xue"
+          },
+          {
+            "id": "64",
+            "effect": "缓解治疗胃痛、呕吐、泄泻。",
+            "name": "梁门穴",
+            "tone": "liáng mén xué",
+            "name_py": "Liang Men Xue"
+          },
+          {
+            "id": "65",
+            "effect": "脾土微粒屯留穴周内外，经水则循胃经下行。",
+            "name": "关门穴",
+            "tone": "guān mén xué",
+            "name_py": "Guan Men Xue"
+          },
+          {
+            "id": "66",
+            "effect": "食欲缺乏，腹泻，腹胀，涤痰，安神。",
+            "name": "太乙穴",
+            "tone": "tài yĭ xué",
+            "name_py": "Tai Yi Xue"
+          },
+          {
+            "id": "67",
+            "effect": "沉降胃经经气中的脾土尘埃。",
+            "name": "外陵穴",
+            "tone": "wài líng xué",
+            "name_py": "Wai Ling Xue"
+          },
+          {
+            "id": "68",
+            "effect": "湿下焦、强腰膝、散寒湿。",
+            "name": "阴市穴",
+            "tone": "yīn shì xué",
+            "name_py": "Yin Shi Xue"
+          },
+          {
+            "id": "69",
+            "effect": "祛风清热，开关通络。",
+            "name": "颊车穴",
+            "tone": "jiá chē xué",
+            "name_py": "Jia Che Xue"
+          },
+          {
+            "id": "70",
+            "effect": "清热和胃，苏厥醒神，通经活络。",
+            "name": "厉兑穴",
+            "tone": "lì duì xué",
+            "name_py": "Li Dui Xue"
+          },
+          {
+            "id": "71",
+            "effect": "男子为定位标志，女子为喂乳之用。",
+            "name": "乳中穴",
+            "tone": "rŭ zhōng xué",
+            "name_py": "Ru Zhong Xue"
+          },
+          {
+            "id": "72",
+            "effect": "冷降胃浊。",
+            "name": "巨髎穴",
+            "tone": "jù liáo xué",
+            "name_py": "Ju Liao Xue"
+          },
+          {
+            "id": "73",
+            "effect": "运化脾土。",
+            "name": "滑肉门穴",
+            "tone": "huá ròu mén xué",
+            "name_py": "Hua Rou Men Xue"
+          },
+          {
+            "id": "74",
+            "effect": "",
+            "name": "下巨虚穴",
+            "tone": "xià jù xū xué",
+            "name_py": "Xia Ju Xu Xue"
+          },
+          {
+            "id": "75",
+            "effect": "强腰膝，通经络。",
+            "name": "髀关穴",
+            "tone": "bì guān xué",
+            "name_py": "Bi Guan Xue"
+          },
+          {
+            "id": "76",
+            "effect": "用于感冒，胸膜炎，胃炎，肠炎，肾炎。下肢瘫痪，足扭伤的治疗。",
+            "name": "陷谷穴",
+            "tone": "xiàn gŭ xué",
+            "name_py": "Xian Gu Xue"
+          }]
+      }
+    ]
+  },
+  "msg":""
+}

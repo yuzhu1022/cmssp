@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    中极穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/ceb8b5e3eb506fd5d06f47bb0cda5ccb.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>中极穴</p></li>
+                                                                    <li><span>【主治】</span><p>主冷气积聚，时上冲心，腹中热，脐下结块，贲豚抢心，阴汗水肿，阳气虚惫，小便频数，失精绝子，疝瘕，妇人产后恶露不行，胎衣不下，月事不调，血结成块，子门肿痛不端，小腹苦寒，阴痒而热，阴痛，恍惚尸厥，饥不能食，临经行房羸瘦，寒热，转脬不得尿，妇人断绪，四度针即有</p></li>
+                                                    <li><span>【取穴方法】</span><p>在下腹部，前正中线上，当脐中下4寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配大赫、肾俞、阴交、三阴交、次髎治阳痿、早泄、遗精、白浊、月经不调、痛经崩漏、产后恶露不止、胞衣不下、阴挺等症（肾气虚型）；
+配阴谷、气海、肾俞治遗溺不止；
+配大敦、关元、三阴交治疝气偏坠；
+配水分、三焦俞、三阴交、气海、委阳治水肿；
+配中极透曲骨。</p></li>
+                                                    <li><span>【按压方式】</span><p>用手掌按摩，每次2分钟，每日2次。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='a77ba03a78746fda0d300b40dfcee6f8', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/ceb8b5e3eb506fd5d06f47bb0cda5ccb.jpg';
+        window.shareTitle = '中极穴的妙用';
+        window.shareSummary = '';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

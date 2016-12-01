@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    阴郄穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/f67ec5a5a411f3c3e29231c4b0626e41.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>阴郄穴</p></li>
+                                                    <li><span>【功效】</span><p>沟通心肾。</p></li>
+                                                    <li><span>【主治】</span><p>主鼻衄吐血，洒淅畏寒，厥逆气惊，心痛霍乱，胸中满。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在前臂掌侧，当尺侧腕屈肌腱的桡侧缘， 腕横纹上1.5寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>本穴配内关、心俞治心痛、配百劳、肺俞、定喘治肺结核、配后溪治盗汗；
+阴郄配心俞、神道，有通阳行气，宁心定悸的作用，主治心痛，心悸，神经衰弱；
+阴郄配尺泽、鱼际，有清热凉血止血的作用，主治衄血、吐血；
+阴郄配后溪、三阴交，有清虚热，敛阴液的作用，主治阴。</p></li>
+                                                    <li><span>【按压方式】</span><p>用手指指腹按压阴郄穴位，按摩时要注意力度适中，每次按摩5分钟，每天按摩2次。特别注意：每日经常按摩阴郄穴位可以预防和治疗心脏疾病、小儿抽筋等。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='db52442b22740dca7cd102819062e5a1', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/f67ec5a5a411f3c3e29231c4b0626e41.jpg';
+        window.shareTitle = '阴郄穴的妙用';
+        window.shareSummary = '沟通心肾。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

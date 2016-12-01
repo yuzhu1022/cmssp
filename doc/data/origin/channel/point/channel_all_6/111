@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    肩贞穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/79ace593eda476fcf8fb168d135ebd31.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>肩贞穴</p></li>
+                                                    <li><span>【功效】</span><p>舒筋利节，通络散结。
+</p></li>
+                                                    <li><span>【主治】</span><p>主伤寒寒热，耳鸣耳聋，缺盆肩中热痛，风痹，手足麻木不举。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在肩关节后下方，臂内收时，腋后纹头上l寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配肩髃、肩髎治疗肩周炎；
+配肩髎、曲池、肩井、手三里、合谷治疗上肢不遂。                          </p></li>
+                                                    <li><span>【按压方式】</span><p>用拇指指腹按揉肩贞穴穴位，注意按压时力度要适中，每次按摩5分钟，每天按摩2次。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='9db95410210858270f1f03be40c430e6', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/79ace593eda476fcf8fb168d135ebd31.jpg';
+        window.shareTitle = '肩贞穴的妙用';
+        window.shareSummary = '舒筋利节，通络散结。
+';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

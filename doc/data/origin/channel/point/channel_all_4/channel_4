@@ -1,0 +1,167 @@
+{
+	"uid": "868568021365744",
+	"chans": {
+		"picurl": "http://img01.sogoucdn.com/app/a/200574/9a24e16cb01eee2bdaf22125d4819c8e.jpg",
+		"disease": "是动则病，舌本强，食则呕，胃脘痛，腹胀善噫，得后与气，则快然如衰，身体皆重。是主脾所生病者：舌本痛，体重不能动摇，食不下，烦心，心下急痛，溏葭泄，水闭，黄疸，不能卧，强立（欠）股膝内肿、厥、足大指不用。脾之大络\u2026\u2026实则身尽痛，虚则百节皆纵。",
+		"visc": "脾",
+		"function": "",
+		"name": "足太阴脾经",
+		"shichen": "巳时",
+		"time": "9-11点",
+		"info": "脾足太阴之脉，起于大指之端，循指内侧白肉际，过核骨后，上内踝前廉，上踹内，循胫骨后，交出厥阴之前，上膝股内前廉，入腹，属脾，络胃，上隔，夹咽，连舌本，散舌下。其支者：复从胃，别上隔，注心中。脾之大络，名曰大包，出渊腋下三寸，布胸胁。"
+	},
+	"code": "ok",
+	"IPLOC": "CN1100",
+	"reqtype": "ZYB_Point_List",
+	"encrypt": 0,
+	"mid": "868568021365744",
+	"userIP": "118.144.130.74",
+	"uuid": "32ba2ba6f37e9706ff6c33deef6c6d34",
+	"points": [{
+		"point_id": "b2d3034234ba09bed0163d9da0236f9b",
+		"func": "活血通络，祛风止痒。",
+		"name": "血海穴",
+		"name_tone_py": "xuè hăi xué",
+		"name_py": "Xue Hai Xue"
+	},
+	{
+		"point_id": "e768c782ef1891d9778209e3d16644e1",
+		"func": "益气壮阳，健脾胃，益肝肾，调经带。",
+		"name": "三阴交穴",
+		"name_tone_py": "sān yīn jiāo xué",
+		"name_py": "San Yin Jiao Xue"
+	},
+	{
+		"point_id": "20ebb8d0888a80bb29a19a55de4941fe",
+		"func": "清利湿热，健脾理气，益肾调经，通经活络。",
+		"name": "阴陵泉穴",
+		"name_tone_py": "yīn líng quán xué",
+		"name_py": "Yin Ling Quan Xue"
+	},
+	{
+		"point_id": "28bd8f70929371612a95a0da5fda8b6b",
+		"func": "健脾补脾。",
+		"name": "太白穴",
+		"name_tone_py": "tài bái xué",
+		"name_py": "Tai Bai Xue"
+	},
+	{
+		"point_id": "098d102a6f06cfb67c2e5f866494764b",
+		"func": "转运脾经水湿。",
+		"name": "大横穴",
+		"name_tone_py": "dà héng xué",
+		"name_py": "Da Heng Xue"
+	},
+	{
+		"point_id": "ab15765c10aa1aab430a46d4682ef300",
+		"func": "扶脾胃，理气机，调血海，和冲脉。",
+		"name": "公孙穴",
+		"name_tone_py": "gōng sūn xué",
+		"name_py": "Gong Sun Xue"
+	},
+	{
+		"point_id": "aa864aae6320e4b308f1ff32a9b5fe78",
+		"func": "健脾化湿，通调肠胃。",
+		"name": "商丘穴",
+		"name_tone_py": "shāng qiū xué",
+		"name_py": "Shang Qiu Xue"
+	},
+	{
+		"point_id": "46153a9c5407d6e4b886a3b81af72762",
+		"func": "统血养经，宽胸止痛。",
+		"name": "大包穴",
+		"name_tone_py": "dà bāo xué",
+		"name_py": "Da Bao Xue"
+	},
+	{
+		"point_id": "6d6b41fe9a2a3a15bc4405d7e1a603a2",
+		"func": "和脾理血，调燮胞宫。",
+		"name": "地机穴",
+		"name_tone_py": "dì jī xué",
+		"name_py": "Di Ji Xue"
+	},
+	{
+		"point_id": "f3f926c166f24886093c3106ee7f1f20",
+		"func": "理血，调下焦。",
+		"name": "冲门穴",
+		"name_tone_py": "chōng mén xué",
+		"name_py": "Chong Men Xue"
+	},
+	{
+		"point_id": "1e450269ddbd10ed58b879a0087e96e5",
+		"func": "散发脾热。",
+		"name": "大都穴",
+		"name_tone_py": "dà dū xué",
+		"name_py": "Da Du Xue"
+	},
+	{
+		"point_id": "56c0940bf25cc01aca1a66ebc5c5ae16",
+		"func": "气血物质为地部经水。",
+		"name": "府舍穴",
+		"name_tone_py": "fŭ shĕ xué",
+		"name_py": "Fu She Xue"
+	},
+	{
+		"point_id": "3be4a4974343974358d7135102d0246d",
+		"func": "气血物质为脾土微粒与经水的混合物。",
+		"name": "食窦穴",
+		"name_tone_py": "shí dòu xué",
+		"name_py": "Shi Dou Xue"
+	},
+	{
+		"point_id": "43f0600d906fce066401f52b3775cf7a",
+		"func": "宽胸通乳，理气止咳。",
+		"name": "天溪穴",
+		"name_tone_py": "tiān xī xué",
+		"name_py": "Tian Xi Xue"
+	},
+	{
+		"point_id": "0089fffcca5d8eb00aa563d2d982a42b",
+		"func": "由本穴输散于脾经之外的胸部。外传脾气。",
+		"name": "胸乡穴",
+		"name_tone_py": "xiōng xiāng xué",
+		"name_py": "Xiong Xiang Xue"
+	},
+	{
+		"point_id": "dd063bec779e92365c8daa1214e2424f",
+		"func": "开窍醒神，调经统血，健脾回阳。",
+		"name": "隐白穴",
+		"name_tone_py": "yĭn bái xué",
+		"name_py": "Yin Bai Xue"
+	},
+	{
+		"point_id": "bed085e54628276bacd30830833c2e24",
+		"func": "去湿健脾，理气调肠。",
+		"name": "腹结穴",
+		"name_tone_py": "fù jié xué",
+		"name_py": "Fu Jie Xue"
+	},
+	{
+		"point_id": "a13b4ada92b250c266babd0027fe3d97",
+		"func": "沉降脾经阴浊。",
+		"name": "漏谷穴",
+		"name_tone_py": "lòu gŭ xué",
+		"name_py": "Lou Gu Xue"
+	},
+	{
+		"point_id": "da0212e729cea0c5f90f1a093682c436",
+		"func": "运化脾土微粒输送人体各部。",
+		"name": "箕门穴",
+		"name_tone_py": "jī mén xué",
+		"name_py": "Ji Men Xue"
+	},
+	{
+		"point_id": "4c68263118507c5a6892732ebcb63494",
+		"func": "健脾和胃，理气调肠。",
+		"name": "腹哀穴",
+		"name_tone_py": "fù āi xué",
+		"name_py": "Fu Ai Xue"
+	},
+	{
+		"point_id": "2060b7cf1c1fd628b8b2d7d8b9e72cc4",
+		"func": "咳嗽，气逆；胸胁胀满",
+		"name": "周荣穴",
+		"name_tone_py": "zhōu róng xué",
+		"name_py": "Zhou Rong Xue"
+	}]
+}

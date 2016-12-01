@@ -1,0 +1,83 @@
+{
+	"uid": "868568021365744",
+	"chans": {
+		"picurl": "http://img02.sogoucdn.com/app/a/200574/3fd4c5d8c939c18f694742c800b1cc37.jpg",
+		"disease": "是动则病，手心热，臂，肘挛急，腋肿；甚则胸胁支满，心中澹澹大动，面赤，目黄，喜笑不休。是主脉所生病者，烦心，心痛，掌中热。",
+		"visc": "心包",
+		"function": "",
+		"name": "手厥阴心包经",
+		"shichen": "戌时",
+		"time": "19-21点",
+		"info": "心主手厥阴心包络之脉，起于胸中，出属心包络，下膈，历络三焦。其支者，循胸出胁，下腋三寸，上抵腋下，循臑内，行太阴、少阴之间，入肘中，下臂，行两筋之间，入掌中，循中指，出其端。其支者，别掌中，循小指次指出其端。"
+	},
+	"code": "ok",
+	"IPLOC": "CN1100",
+	"reqtype": "ZYB_Point_List",
+	"encrypt": 0,
+	"mid": "868568021365744",
+	"userIP": "118.144.130.74",
+	"uuid": "976b1c03b7e515ca0a590a8d3c7343b3",
+	"points": [{
+		"point_id": "4f11d97a6c8b789616a489a18fde9956",
+		"func": "疏导水湿、宁心安神、理气镇痛。",
+		"name": "内关穴",
+		"name_tone_py": "nèi guān xué",
+		"name_py": "Nei Guan Xue"
+	},
+	{
+		"point_id": "507096b3109bf991b6b01afa1f1c2640",
+		"func": "散热增湿。",
+		"name": "天泉穴",
+		"name_tone_py": "tiān quán xué",
+		"name_py": "Tian Quan Xue"
+	},
+	{
+		"point_id": "bbc3ba3a17661d57ffded79b0ed7e23a",
+		"func": "燥湿生气。",
+		"name": "大陵穴",
+		"name_tone_py": "dà líng xué",
+		"name_py": "Da Ling Xue"
+	},
+	{
+		"point_id": "2031754ccac64ca2f9369a34977e5214",
+		"func": "散热燥湿。",
+		"name": "劳宫穴",
+		"name_tone_py": "láo gōng xué",
+		"name_py": "Lao Gong Xue"
+	},
+	{
+		"point_id": "975fbd90d94de67b0e55f35d6f9a7517",
+		"func": "清热除烦，舒筋活血。",
+		"name": "曲泽穴",
+		"name_tone_py": "qŭ zé xué",
+		"name_py": "Qu Ze Xue"
+	},
+	{
+		"point_id": "44d4f5b082eeac639d9551d59aabcd94",
+		"func": "宁心，理气，活血。",
+		"name": "郄门穴",
+		"name_tone_py": "qiè mén xué",
+		"name_py": "Xi Men Xue"
+	},
+	{
+		"point_id": "4f385634ee35d4d5b02d91e96003431b",
+		"func": "宽胸和胃，清心安神，截疟。",
+		"name": "间使穴",
+		"name_tone_py": "jiān shĭ xué",
+		"name_py": "Jian Shi Xue"
+	},
+	{
+		"point_id": "33bbbe480df666f83543701262784544",
+		"func": "宽胸、消胀。",
+		"name": "天池穴",
+		"name_tone_py": "tiān chí xué",
+		"name_py": "Tian Chi Xue"
+	},
+	{
+		"point_id": "c46598229dbfb6f26edc4127ff0abb5e",
+		"func": "苏厥开窍，清心泄热。",
+		"name": "中冲穴",
+		"name_tone_py": "zhōng chōng xué",
+		"name_py": "Zhong Chong Xue"
+	}]
+}

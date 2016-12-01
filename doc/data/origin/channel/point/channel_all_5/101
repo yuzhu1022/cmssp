@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    极泉穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/b5ecea3e75f2b2cdecf4763703e2f0ff.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>极泉穴</p></li>
+                                                    <li><span>【功效】</span><p>宽胸宁神。</p></li>
+                                                    <li><span>【主治】</span><p>主臂肘厥寒，四肢不收，心痛干呕，烦渴，目黄，胁满痛，悲愁不乐。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在腋窝正中，腋动脉搏动处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>心痛干呕烦满：配侠白穴（《针灸资生经》）；
+腋窝痛：配日月穴、肩贞穴、少海穴、内关穴、阳辅穴、丘墟穴（《针灸学手册》）；
+四肢不收：配日月穴、脾俞穴（《针灸资生经》）；
+咽干咽喉肿痛：配太渊穴、偏历穴、太冲穴、天突穴。
+</p></li>
+                                                    <li><span>【按压方式】</span><p>用大拇指指肚使劲按压左侧极泉穴，连续按20下，胃胀很快就会得到缓解。然后把捣碎的白参片贴在此穴上，再用医用纱布和医用胶布固定，贴12个小时，休息12个小时。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='7976170eac677f2b1c250a819d3f9770', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/b5ecea3e75f2b2cdecf4763703e2f0ff.jpg';
+        window.shareTitle = '极泉穴的妙用';
+        window.shareSummary = '宽胸宁神。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

@@ -1,0 +1,328 @@
+{
+	"uid": "868568021365744",
+	"chans": {
+		"picurl": "http://img01.sogoucdn.com/app/a/200574/ead245d1bc9813e3f91e3a6c12f047bc.jpg",
+		"disease": "是动则病，口苦，善太息，心胁痛，不能转侧，甚则面微有尘，体无膏泽，足外反热，是为阳厥。是主骨所生病者，头痛，颔痛，目锐眦痛，缺盆中肿痛，腋下肿，马刀、侠瘿，汗出振寒，疟，胸胁、肋、髀、膝外至胫、绝骨、外踝前及诸节皆痛，小指次指不用。",
+		"visc": "胆",
+		"function": "",
+		"name": "足少阳胆经",
+		"shichen": "子时",
+		"time": "23-1点",
+		"info": "胆足少阳之脉，起于目锐眦，上抵头角，下耳后，循颈，行手少阳之前，至肩上，却交出手少阳之后，入缺盆。其支者，从耳后入耳中，出走耳前，至目锐眦后。其支者，别锐眦，下大迎，合于手少阳，抵于拙，下加颊车，下颈，合缺盆，以下胸中，贯膈，络肝，属胆，循胁里，出气街，绕毛际，横入髀厌中。其直者，从缺盆下腋，循胸，过季胁，下合髀厌中。以下循髀阳，出膝外廉，下外辅骨之前，直下抵绝骨之端，下出外踝之前，循足跗上，入小指次指之间。其支者，别跗上，入大指之间，循大指岐骨内，出其端，还贯爪甲，出三毛。"
+	},
+	"code": "ok",
+	"IPLOC": "CN1100",
+	"reqtype": "ZYB_Point_List",
+	"encrypt": 0,
+	"mid": "868568021365744",
+	"userIP": "118.144.130.74",
+	"uuid": "53e9177360307a576311f8c75b2cffa0",
+	"points": [{
+		"point_id": "873b032c437eca3a3747e7eccb891dc8",
+		"func": "利胆祛湿，通经活络。",
+		"name": "阳陵泉穴",
+		"name_tone_py": "yáng líng quán xué",
+		"name_py": "Yang Ling Quan Xue"
+	},
+	{
+		"point_id": "be7412fdeb6f12a8d31a8ff5297bfc5f",
+		"func": "调带脉，理下焦。",
+		"name": "五枢穴",
+		"name_tone_py": "wŭ shū xué",
+		"name_py": "Wu Shu Xue"
+	},
+	{
+		"point_id": "22eece48ba9bd639fcd82cc7ab5d9b07",
+		"func": "调带脉，理下焦，舒筋，益肾。",
+		"name": "维道穴",
+		"name_tone_py": "wéi dào xué",
+		"name_py": "Wei Dao Xue"
+	},
+	{
+		"point_id": "7c925ab2437cf645d0bbc7e91bf62d26",
+		"func": "利腿足、镇惊、清热。",
+		"name": "阳交穴",
+		"name_tone_py": "yáng jiāo xué",
+		"name_py": "Yang Jiao Xue"
+	},
+	{
+		"point_id": "3e2b40f28935e72576ec5ba651150f4b",
+		"func": "健脾益气。",
+		"name": "环跳穴",
+		"name_tone_py": "huán tiào xué",
+		"name_py": "Huan Tiao Xue"
+	},
+	{
+		"point_id": "4e8bc2adbe5b958c95699ee4f1ef628f",
+		"func": "清降寒浊。",
+		"name": "听会穴",
+		"name_tone_py": "tīng huì xué",
+		"name_py": "Ting Hui Xue"
+	},
+	{
+		"point_id": "829cbcdc7ebfc7e5795876f729e2ac7d",
+		"func": "疏导水液",
+		"name": "完骨穴",
+		"name_tone_py": "wán gŭ xué",
+		"name_py": "Wan Gu Xue"
+	},
+	{
+		"point_id": "2debff34b34e148928db1dee505d4980",
+		"func": "排泄水液",
+		"name": "渊腋穴",
+		"name_tone_py": "yuān yè xué",
+		"name_py": "Yuan Ye Xue"
+	},
+	{
+		"point_id": "0715d3e13c45b597f7d885c693ac73b9",
+		"func": "壮阳益气。",
+		"name": "风池穴",
+		"name_tone_py": "fēng chí xué",
+		"name_py": "Feng Chi Xue"
+	},
+	{
+		"point_id": "1168975aa857fe6474ddb6ff9d534e7b",
+		"func": "舒肝理气，通络安神。",
+		"name": "外丘穴",
+		"name_tone_py": "wài qiū xué",
+		"name_py": "Wai Qiu Xue"
+	},
+	{
+		"point_id": "34a541caaf7535009668c6f27824d7a4",
+		"func": "祛风湿、利筋骨，泻胆火。\r\n\r\n",
+		"name": "阳辅穴",
+		"name_tone_py": "yáng fŭ xué",
+		"name_py": "Yang Fu Xue"
+	},
+	{
+		"point_id": "30068516f20443467419f8fc45c78487",
+		"func": "利胸胁、消乳肿。\r\n",
+		"name": "地五会穴",
+		"name_tone_py": "dì wŭ huì xué",
+		"name_py": "Di Wu Hui Xue"
+	},
+	{
+		"point_id": "c41e1344b6b7784760b6d4a665861760",
+		"func": "泄热、利胁、通窍。\r\n",
+		"name": "足窍阴穴",
+		"name_tone_py": "zú qiào yīn xué",
+		"name_py": "Zu Qiao Yin Xue"
+	},
+	{
+		"point_id": "dd3acdf5c5ce64a2082117e9a3094074",
+		"func": "运动系统疾病：膝关节炎，下肢瘫痪，膝关节及周围软组织疾患，脚气；\r\n精神神经系统疾病：股外侧皮神经麻痹，坐骨神经痛。",
+		"name": "膝阳关穴",
+		"name_tone_py": "xī yáng guān xué",
+		"name_py": "Xi Yang Guan Xue"
+	},
+	{
+		"point_id": "c6e4764984763f9f7d26b5e6ecaf8beb",
+		"func": "疏导水液。",
+		"name": "肩井穴",
+		"name_tone_py": "jiān jĭng xué",
+		"name_py": "Jian Jing Xue"
+	},
+	{
+		"point_id": "5c817b5f20e1b419adabffaf0e85e952",
+		"func": "健脾利湿，调经止带。",
+		"name": "带脉穴",
+		"name_tone_py": "dài mài xué",
+		"name_py": "Dai Mai Xue"
+	},
+	{
+		"point_id": "aa12c6f8f2a8227e9f1f918ac76942df",
+		"func": "舒筋活络、清热生气、舒肝益肾。",
+		"name": "悬钟穴",
+		"name_tone_py": "xuán zhōng xué",
+		"name_py": "Xuan Zhong Xue"
+	},
+	{
+		"point_id": "a050d9fbc8aee3758ab5c00326691984",
+		"func": "收募胆经气血。",
+		"name": "日月穴",
+		"name_tone_py": "rì yuè xué",
+		"name_py": "Ri Yue Xue"
+	},
+	{
+		"point_id": "7da13699f748e26d537bad31acba32af",
+		"func": "舒筋活络，祛风化湿，通经活络。",
+		"name": "风市穴",
+		"name_tone_py": "fēng shì xué",
+		"name_py": "Feng Shi Xue"
+	},
+	{
+		"point_id": "aaeff8b934fadf0357483acc69172613",
+		"func": "健腰，利水，消胀。",
+		"name": "京门穴",
+		"name_tone_py": "jīng mén xué",
+		"name_py": "Jing Men Xue"
+	},
+	{
+		"point_id": "ee56f8f507f897196443032ec961a26b",
+		"func": "平肝熄风，消肿止痛。",
+		"name": "侠溪穴",
+		"name_tone_py": "xiá xī xué",
+		"name_py": "Xia Xi Xue"
+	},
+	{
+		"point_id": "b9a5404efff9096332a4d153e1fd46ab",
+		"func": "疏导水湿。",
+		"name": "中渎穴",
+		"name_tone_py": "zhōng dú xué",
+		"name_py": "Zhong Du Xue"
+	},
+	{
+		"point_id": "bc4b0e76f2f5e8923cd18a68f86e66a4",
+		"func": "生气壮阳。",
+		"name": "阳白穴",
+		"name_tone_py": "yáng bái xué",
+		"name_py": "Yang Bai Xue"
+	},
+	{
+		"point_id": "39ec5770df49769881770839aeee80ec",
+		"func": "联络肝胆气血。",
+		"name": "光明穴",
+		"name_tone_py": "guāng míng xué",
+		"name_py": "Guang Ming Xue"
+	},
+	{
+		"point_id": "b02ff5395e1fd181522923f1199de300",
+		"func": "生发风气。",
+		"name": "丘墟穴",
+		"name_tone_py": "qiū xū xué",
+		"name_py": "Qiu Xu Xue"
+	},
+	{
+		"point_id": "6e9605d7b7a5230a5f1caa46668a7e7e",
+		"func": "降浊去湿。",
+		"name": "瞳子髎穴",
+		"name_tone_py": "tóng zĭ liáo xué",
+		"name_py": "Tong Zi Liao Xue"
+	},
+	{
+		"point_id": "c0a3b7b4ca13ceeecbf3d433bc25c53b",
+		"func": "有疏风活络、镇惊止痛的作用。",
+		"name": "率谷穴",
+		"name_tone_py": "shuài gŭ xué",
+		"name_py": "Shuai Gu Xue"
+	},
+	{
+		"point_id": "db5f9374622040dcf0f8fff88a6658fa",
+		"func": "有疏肝利胆、散风通经的作用。",
+		"name": "浮白穴",
+		"name_tone_py": "fú bái xué",
+		"name_py": "Fu Bai Xue"
+	},
+	{
+		"point_id": "8f265e9dfbdfd12dff20af7f43da4b5a",
+		"func": "降浊分清。",
+		"name": "脑空穴",
+		"name_tone_py": "năo kōng xué",
+		"name_py": "Nao Kong Xue"
+	},
+	{
+		"point_id": "4b3dfa574f11f04e3a2c8b7e3c7cee85",
+		"func": "运化风气，冷降水湿。",
+		"name": "足临泣穴",
+		"name_tone_py": "zú lín qì xué",
+		"name_py": "Zu Lin Qi Xue"
+	},
+	{
+		"point_id": "0ab1278a3c06ab8b633b622740b712c8",
+		"func": "舒筋活络，益肾强健。",
+		"name": "居髎穴",
+		"name_tone_py": "jū liáo xué",
+		"name_py": "Ju Liao Xue"
+	},
+	{
+		"point_id": "efcf42f0e164acdbaca07cefb4d5b2ea",
+		"func": "祛风镇惊，聪耳利齿。",
+		"name": "上关穴",
+		"name_tone_py": "shàng guān xué",
+		"name_py": "Shang Guan Xue"
+	},
+	{
+		"point_id": "d5f82d34f722cdee0aea06386e5d8d09",
+		"func": "祛风镇惊。",
+		"name": "颔厌穴",
+		"name_tone_py": "hàn yàn xué",
+		"name_py": "Han Yan Xue"
+	},
+	{
+		"point_id": "96a15693484f1106c8251d0537902084",
+		"func": "祛风明目，清热消肿。",
+		"name": "悬颅穴",
+		"name_tone_py": "xuán lú xué",
+		"name_py": "Xuan Lu Xue"
+	},
+	{
+		"point_id": "47a98e2663f4f767a9d812374c9a6fb0",
+		"func": "祛风镇惊。",
+		"name": "悬厘穴",
+		"name_tone_py": "xuán lí xué",
+		"name_py": "Xuan Li Xue"
+	},
+	{
+		"point_id": "e30e2554273e6e2c76dbe214eee8a89f",
+		"func": "祛头风，利口颊。",
+		"name": "曲鬓穴",
+		"name_tone_py": "qŭ bìn xué",
+		"name_py": "Qu Bin Xue"
+	},
+	{
+		"point_id": "4d0ff6766794a44d5c68cb957c131808",
+		"func": "祛风，定惊，清热消肿。",
+		"name": "天冲穴",
+		"name_tone_py": "tiān chōng xué",
+		"name_py": "Tian Chong Xue"
+	},
+	{
+		"point_id": "cf5922d7c11e59f6b239d0332f3572b7",
+		"func": "祛风，清热，舒筋。",
+		"name": "头窍阴穴",
+		"name_tone_py": "tóu qiào yīn xué",
+		"name_py": "Tou Qiao Yin Xue"
+	},
+	{
+		"point_id": "bf6c0d49d610db5cada4a7ca3150d35e",
+		"func": "宁神，祛风，舒筋。",
+		"name": "本神穴",
+		"name_tone_py": "bĕn shén xué",
+		"name_py": "Ben Shen Xue"
+	},
+	{
+		"point_id": "a2f460c15da514e66d0b3d9a1d54b4cc",
+		"func": "明目，祛风，清神。",
+		"name": "头临泣穴",
+		"name_tone_py": "tóu lín qì xué",
+		"name_py": "Tou Lin Qi Xue"
+	},
+	{
+		"point_id": "990f13d3d968698577a7c1a9460e9038",
+		"func": "明目开窍，祛风定惊。",
+		"name": "目窗穴",
+		"name_tone_py": "mù chuāng xué",
+		"name_py": "Mu Chuang Xue"
+	},
+	{
+		"point_id": "53c3022b5d1eaba906852457edb1c28b",
+		"func": "祛风，利口齿。",
+		"name": "正营穴",
+		"name_tone_py": "zhèng yíng xué",
+		"name_py": "Zheng Ying Xue"
+	},
+	{
+		"point_id": "2461c6d1d64cb42367bd0e90afe2a96b",
+		"func": "祛风，通窍。",
+		"name": "承灵穴",
+		"name_tone_py": "chéng líng xué",
+		"name_py": "Cheng Ling Xue"
+	},
+	{
+		"point_id": "89a99ef0d2e5297a3054170e3e847e38",
+		"func": "降逆平喘，理气止痛。",
+		"name": "辄筋穴",
+		"name_tone_py": "zhé jīn xué",
+		"name_py": "Zhe Jin Xue"
+	}]
+}

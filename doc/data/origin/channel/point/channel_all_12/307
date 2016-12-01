@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    大敦穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/01b3edd7a5c6b5ce8656c476ab6acac6.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>大敦穴</p></li>
+                                                    <li><span>【功效】</span><p>回阳救逆，调经通淋。</p></li>
+                                                    <li><span>【主治】</span><p>主五淋，卒疝七疝，小便数遗不禁，阴头中痛，汗出，阴上入小腹，阴偏大，腹脐中痛，悒悒不乐，病左取右，病右取左。腹胀肿病，小腹痛，中热喜寐，尸厥状如死人，妇人血崩不止，阴挺出，阴中痛。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在足大指外侧趾甲根角旁0.1寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配内关穴、水沟穴治癫、狂、痫和中风昏仆；
+配膻中穴、天突穴、间使穴治梅核气。</p></li>
+                                                    <li><span>【按压方式】</span><p>指压&ldquo;大敦&rdquo;的话，能是头脑清晰、眼睛明亮。指压时强压7-8秒钟，才慢慢吐气，每日就寝前重复10此左右。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='f573318d9f87e7bafbf821f81e05b5a9', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/01b3edd7a5c6b5ce8656c476ab6acac6.jpg';
+        window.shareTitle = '大敦穴的妙用';
+        window.shareSummary = '回阳救逆，调经通淋。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

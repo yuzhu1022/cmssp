@@ -1,0 +1,4 @@
+374
+{"id":67314,"name":"\u9ec4\u82a9\u6c64\uff08\u91cd\u8ba2\u5e7f\u6e29\u70ed\u8bba\uff09","summary":"<section>\n    <h4>\u51fa\u5904<\/h4>\n    <p>\u300a\u91cd\u8ba2\u5e7f\u6e29\u70ed\u8bba\u300b\r\n\r\n<\/p>\n<\/section>\n<section>\n    <h4>\u53e4\u4ee3\u5242\u91cf<\/h4>\n    <dl>\n<dd>\u9752<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"drug\" object-id=\"108\">\u5b50\u82a9<\/a>\uff08\u4e09\u94b1\uff09 \u751f<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"drug\" object-id=\"42\">\u767d\u828d<\/a>\uff08\u94b1\u534a\uff09 \u751f<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"drug\" object-id=\"1\">\u7518\u8349<\/a>\uff08\u516b\u5206\uff09 \u7ea2\u67a3\uff08\u4e24\u679a\uff09<\/dd>\n    <\/dl>\n<\/section>\n","indications":"","explanation":"","share_key":"MWNmYkQwUzdQSUlCTk9LVlJuTXpvWU84ZDdLMnhLMVdRQzZqb2Z2Zm9mcUJZQQ=="}
+0
+

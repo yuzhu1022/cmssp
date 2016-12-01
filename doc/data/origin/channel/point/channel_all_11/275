@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    光明穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/22d1e89e723e1c297e6b3d4324d70238.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>光明穴</p></li>
+                                                    <li><span>【功效】</span><p>联络肝胆气血。</p></li>
+                                                    <li><span>【主治】</span><p>主淫泺，胫酸胻疼，不能久立，热病汗不出，卒狂。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在小腿外侧，当外踝尖上5寸，腓骨前缘。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配肝俞穴、肾俞穴、风池穴、目窗穴、睛明穴、行间穴治青光眼和早期白内障。</p></li>
+                                                    <li><span>【按压方式】</span><p>坐姿，先用手掌根在小腿胫骨内侧从膝盖至内踝向下揉小腿10次，然后从外踝至膝盖向上揉小腿外侧面10次。此时重点点揉光明穴1分钟，按揉时以有热感为佳，点揉光明穴时以有酸胀感为佳。每天1次，每次10~15分钟左右。经常如此操作，方能有效防治老花眼。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='39ec5770df49769881770839aeee80ec', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/22d1e89e723e1c297e6b3d4324d70238.jpg';
+        window.shareTitle = '光明穴的妙用';
+        window.shareSummary = '联络肝胆气血。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

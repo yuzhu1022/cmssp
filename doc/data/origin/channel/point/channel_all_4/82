@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    公孙穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/83ea5a72ebe33efef9ae5b2018264994.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>公孙穴</p></li>
+                                                    <li><span>【功效】</span><p>扶脾胃，理气机，调血海，和冲脉。</p></li>
+                                                    <li><span>【主治】</span><p>主寒疟，不嗜食，痫气，好太息，多寒热，汗出，病至则喜呕，呕已乃衰。头面肿起，烦心狂言，多饮，胆虚，厥气上逆则霍乱，实则肠中切痛泻之，虚则鼓胀补之。</p></li>
+                                                    <li><span>【取穴方法】</span><p>当第一跖骨基底部的前下方，赤白肉际处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配丰隆、中魁、膻中，有健脾化痰的作用，主治呕吐痰涎，眩晕不已；
+配解溪、中脘、足三里，有健脾化食，和中消积的作用，主治饮食停滞，胃脘疼痛；
+配束骨、八风，有通经活络的作用，主治足趾麻痛。</p></li>
+                                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='ab15765c10aa1aab430a46d4682ef300', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/83ea5a72ebe33efef9ae5b2018264994.jpg';
+        window.shareTitle = '公孙穴的妙用';
+        window.shareSummary = '扶脾胃，理气机，调血海，和冲脉。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

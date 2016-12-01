@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    行间穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/b09f59fd4c166d09b127175a1db819ba.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>行间穴</p></li>
+                                                    <li><span>【功效】</span><p>清肝泻热，凉血安神，熄风活络。</p></li>
+                                                    <li><span>【主治】</span><p>主呕逆，洞泄，遗溺癃闭，消渴嗜饮，善怒，四肢满，转筋，胸胁痛，小腹肿，咳逆呕血，茎中痛，腰疼不可俯仰，腹中胀，小肠气，肝心痛，色苍苍如死状，终日不得息，口㖞，癫疾，短气，四肢逆冷，嗌干烦渴，瞑不欲视，目中泪出，太息，便溺难，七疝寒疝，中风，肝积肥气，发痎疟</p></li>
+                                                    <li><span>【取穴方法】</span><p>第1、2趾间趾蹼缘的上方纹头处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配睛明穴治青光眼、降眼压；
+配太冲穴、合谷穴、、风池穴、百会穴治肝火上炎、头痛、眩晕、衄血；配中脘穴、肝俞穴、胃俞穴治肝气犯胃之胃痛；配中府穴、孔最穴治肝火犯肺干咳或咯血。</p></li>
+                                                    <li><span>【按压方式】</span><p>按摩的时候，用大拇指点按在行间穴的位置，轻轻按揉3分钟左右，稍微用力，以感觉压痛为度。如果是懒得用手按，也可以光脚，用一只脚的拇趾去踩另一只脚的行间穴位置，这样时不时踩一下，能够起到疏肝理气的作用。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='b418c6fdd3ad7bb604d3d3e6d588b257', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/b09f59fd4c166d09b127175a1db819ba.jpg';
+        window.shareTitle = '行间穴的妙用';
+        window.shareSummary = '清肝泻热，凉血安神，熄风活络。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

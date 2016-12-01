@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    小肠俞穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/25ac50a83600bb3b7bd2e2a316a4c1c6.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>小肠俞穴</p></li>
+                                                    <li><span>【功效】</span><p>外散小肠腑之热。</p></li>
+                                                    <li><span>【主治】</span><p>主膀胱、三焦津液少，大小肠寒热，小便赤不利，淋沥遗溺，小腹胀满，㽱痛，泄利脓血，五色赤痢下重，肿痛，脚肿，五痔，头痛，虚乏消渴，口干不可忍，妇人带下。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在骶部，当骶正中嵴旁1.5寸，平第1骶后孔。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配天枢穴、足三里穴、上巨虚穴、关元穴治腹胀、痢疾、便秘。
+配肾俞穴、三阴交穴、三焦俞穴、关元穴、曲泉穴治泌尿系结石。</p></li>
+                                                    <li><span>【按压方式】</span><p>要治疗早泄，首先要使腰椎和仙骨结合处产生正常的柔性。要恢复它的功能以指压&ldquo;大肠俞&rdquo;和&ldquo;小肠俞&rdquo;最有效。&ldquo;大肠俞&rdquo;位于第四腰椎下方左右3指宽处，&ldquo;小肠俞&rdquo;位于第一仙椎左右3指宽处。指压时，一边缓缓吐气一边强压6秒钟，如此重复10次。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='5f5200f6364c1ab9c3aa0f6f42344255', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/25ac50a83600bb3b7bd2e2a316a4c1c6.jpg';
+        window.shareTitle = '小肠俞穴的妙用';
+        window.shareSummary = '外散小肠腑之热。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

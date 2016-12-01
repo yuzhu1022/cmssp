@@ -1,0 +1,69 @@
+{
+	"uid": "868568021365744",
+	"chans": {
+		"picurl": "http://img03.sogoucdn.com/app/a/200574/6b24f739b0d2c4a8b6188525182a788e.jpg",
+		"disease": "阳维维于阳,阴维维于阴,阴阳不能自相维,则怅然失志,溶溶不能自收持。阳维为病苦寒热；阴维为病苦心痛。",
+		"visc": "",
+		"function": "",
+		"name": "阴维脉",
+		"shichen": "",
+		"time": "",
+		"info": "阴维脉起于\u201c诸阴交\u201d，各穴分布在小腿内侧和腹部第三侧线，于颈部与任脉交会于天突、廉泉。"
+	},
+	"code": "ok",
+	"IPLOC": "CN1100",
+	"reqtype": "ZYB_Point_List",
+	"encrypt": 0,
+	"mid": "868568021365744",
+	"userIP": "118.144.130.74",
+	"uuid": "257f8fc10b91cda970c0e79d35388ea5",
+	"points": [{
+		"point_id": "098d102a6f06cfb67c2e5f866494764b",
+		"func": "转运脾经水湿。",
+		"name": "大横穴",
+		"name_tone_py": "dà héng xué",
+		"name_py": "Da Heng Xue"
+	},
+	{
+		"point_id": "5187e2131a3502c6fdf393c2aba1f95a",
+		"func": "吸热生气。",
+		"name": "天突穴",
+		"name_tone_py": "tiān tū xué",
+		"name_py": "Tian Tu Xue"
+	},
+	{
+		"point_id": "61a37abc6d627b45229f294055e245c5",
+		"func": "利喉舒舌、消肿止痛。",
+		"name": "廉泉穴",
+		"name_tone_py": "lián quán xué",
+		"name_py": "Lian Quan Xue"
+	},
+	{
+		"point_id": "b3e7b6d9d16058bc7d61d3d49511fc2b",
+		"func": "健脾疏肝，理气活血。",
+		"name": "期门穴",
+		"name_tone_py": "qī mén xué",
+		"name_py": "Qi Men Xue"
+	},
+	{
+		"point_id": "b8e6283ce277da82f114e2c32877edde",
+		"func": "理下焦、清神。",
+		"name": "筑宾穴",
+		"name_tone_py": "zhù bīn xué",
+		"name_py": "Zhu Bin Xue"
+	},
+	{
+		"point_id": "56c0940bf25cc01aca1a66ebc5c5ae16",
+		"func": "气血物质为地部经水。",
+		"name": "府舍穴",
+		"name_tone_py": "fŭ shĕ xué",
+		"name_py": "Fu She Xue"
+	},
+	{
+		"point_id": "4c68263118507c5a6892732ebcb63494",
+		"func": "健脾和胃，理气调肠。",
+		"name": "腹哀穴",
+		"name_tone_py": "fù āi xué",
+		"name_py": "Fu Ai Xue"
+	}]
+}

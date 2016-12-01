@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    俞府穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/c717c52c05b1f0880f046eddf2a99149.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>俞府穴</p></li>
+                                                    <li><span>【功效】</span><p>利气、平喘</p></li>
+                                                    <li><span>【主治】</span><p>主咳逆上气，呕吐，喘嗽，腹胀不下食饮，胸中痛久喘，灸七壮效。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在胸部，当锁骨下缘，前正中线旁开2寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配天突穴、肺俞穴、鱼际穴治咳嗽、咽痛；
+配足三里穴、合谷穴治胃气上逆之呕吐、呃逆。</p></li>
+                                                    <li><span>【按压方式】</span><p>有些女性朋友常会感到脚心发凉，必是气血循环不畅造成的，用力点按俞府穴，几分钟后就会觉得脚心发热。如果碰到有人气喘突然发作时候，也可以指压胸骨旁边的俞府穴，可以起到一定的治疗作用。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='1e2c60142c741ff1fd99fcae0c0657c7', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/c717c52c05b1f0880f046eddf2a99149.jpg';
+        window.shareTitle = '俞府穴的妙用';
+        window.shareSummary = '利气、平喘';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

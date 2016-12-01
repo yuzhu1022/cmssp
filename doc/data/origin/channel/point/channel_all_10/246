@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    耳门穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/c677229060836901b55d996b15d7c18b.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>耳门穴</p></li>
+                                                    <li><span>【功效】</span><p>聪耳，利牙关。</p></li>
+                                                    <li><span>【主治】</span><p>主耳鸣如蝉声，聤耳脓汁出，耳生疮，重听无所闻，齿龋，唇吻强。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在面部，当耳屏上切迹的前方，下颌骨髁状突后缘，张口有凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配丝竹空穴治牙痛；
+配兑端穴治上齿龋。</p></li>
+                                                    <li><span>【按压方式】</span><p>被按摩者仰卧，微微张口，按摩者坐于被按摩者头后，用双手拇指相对，同时轻轻用力打按压耳门穴半分钟，然后自上而下推耳前18，以局部有酸胀感为佳。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='14808237e254b4592561ef4eb7af1c9c', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/c677229060836901b55d996b15d7c18b.jpg';
+        window.shareTitle = '耳门穴的妙用';
+        window.shareSummary = '聪耳，利牙关。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

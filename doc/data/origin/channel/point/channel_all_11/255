@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    阳交穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img01.sogoucdn.com/app/a/200574/72abea60c47ea3f8ec59d03d6ab1a3c6.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>阳交穴</p></li>
+                                                    <li><span>【功效】</span><p>利腿足、镇惊、清热。</p></li>
+                                                    <li><span>【主治】</span><p>主胸满肿，膝痛足不收，寒厥惊狂，喉痹，面肿，寒痹，膝胻不收。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在小腿外侧，当外踝尖上7寸，腓骨后缘。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配支沟穴、相应节段夹脊穴治带状疱疹之神经痛；
+配阳辅穴、绝骨、行间穴、昆仑穴、丘墟穴治两足麻木；
+配环跳穴、秩边穴、风市穴、伏兔穴、昆仑穴治风湿性腰腿痛－腰扭伤、坐骨神经痛、中风半身不遂之下肢瘫痪、小儿麻痹症。</p></li>
+                                                    <li><span>【按压方式】</span><p>医者用手拇指肚和其余四指相对，推揉患者左右下肢处的阳交穴各36次，然后再用手拇指端点按患者足背系鞋带处的解溪穴，左右穴各36次，其下肢和脚有放射性酸胀感效果好。
+</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='7c925ab2437cf645d0bbc7e91bf62d26', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img01.sogoucdn.com/app/a/200574/72abea60c47ea3f8ec59d03d6ab1a3c6.jpg';
+        window.shareTitle = '阳交穴的妙用';
+        window.shareSummary = '利腿足、镇惊、清热。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

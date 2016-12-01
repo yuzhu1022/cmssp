@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    阴陵泉穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/c81b8357a974576e4cf380e5f8c7424b.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>阴陵泉穴</p></li>
+                                                    <li><span>【功效】</span><p>清利湿热，健脾理气，益肾调经，通经活络。</p></li>
+                                                    <li><span>【主治】</span><p>主腹中寒不嗜食，胁下满，水胀腹坚，喘逆不得卧，腰痛不可俯仰，霍乱，疝瘕，遗精，尿失禁不自知，小便不利，气淋，寒热不节，阴痛，胸中热，暴泄飧泄。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在小腿内侧，当胫骨内侧踝下方凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配足三里、上巨虚主治腹胀、腹泻；配中极、膀胱俞、三阴交主治小便不利。</p></li>
+                                                    <li><span>【按压方式】</span><p>拇指的指端部位放在阴陵泉穴位上，然后按照顺时针的方向按摩两分钟，最后点按半分钟，以肌肉出现酸胀为标准。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='20ebb8d0888a80bb29a19a55de4941fe', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/c81b8357a974576e4cf380e5f8c7424b.jpg';
+        window.shareTitle = '阴陵泉穴的妙用';
+        window.shareSummary = '清利湿热，健脾理气，益肾调经，通经活络。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

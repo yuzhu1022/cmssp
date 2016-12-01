@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    灵道穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/f2cb59a484a9ea6fd8f045c94408b3ed.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>灵道穴</p></li>
+                                                    <li><span>【功效】</span><p>安神，宁心，通络。</p></li>
+                                                    <li><span>【主治】</span><p>主心痛，干呕，悲恐，相引瘈疭，肘挛，暴喑不能言。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在前臂掌侧，当尺侧腕屈肌腱的桡侧缘，腕横纹上1.5寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配内关、巨阙、中冲治心绞痛；
+配人中、合谷、巨阙治癔病；配天突、天窗治暴瘖；配尺泽、少海治肘挛；
+灵道配外关，有舒筋通络活血的作用，主治臂痛，指麻，关节炎；
+灵道配廉泉，有利舌启闭的作用，主治舌强，暴暴瘖，癔病；
+灵道配郄门，安神宁心，镇静止痛。</p></li>
+                                                    <li><span>【按压方式】</span><p>冠心病犯病时，可用拇指先轻揉灵道穴1分钟，然后重压按摩2分钟，最后轻揉1分钟，每天上下午各揉1次，10天为一疗程，间歇2～3天，可进行下一疗程。经观察，揉按治疗后心绞痛症状明显减轻，心电图亦有改善。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='f060d32d426afb5f115c4fad1a4d77f9', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/f2cb59a484a9ea6fd8f045c94408b3ed.jpg';
+        window.shareTitle = '灵道穴的妙用';
+        window.shareSummary = '安神，宁心，通络。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

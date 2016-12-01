@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    水分穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img03.sogoucdn.com/app/a/200574/58a102a13294704fbf937c2874055519.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>水分穴</p></li>
+                                                    <li><span>【功效】</span><p>分流水湿。</p></li>
+                                                    <li><span>【主治】</span><p>主水病，腹坚肿如鼓，转筋，不嗜食，肠胃虚胀，绕脐痛冲心，腰脊急强，肠鸣状如雷声，上冲心，鬼击，鼻出血，小儿陷囟。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在上腹部，前正中线上，当脐中上1寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配天枢穴、地机穴治腹水；配内关穴治反胃呕吐；配中封穴、曲泉穴治脐痛；配脾俞穴、三阴交穴治浮肿。</p></li>
+                                                    <li><span>【按压方式】</span><p>用指腹以画圆方式按压，以出现酸胀感为宜，每次15下，每天按2~3次。水分穴为任脉上的重要穴位之一，有分流水湿的作用，按压可治疗寒湿引起的腹胀、肠鸣、腹泻。消化不良、气滞引起的便秘，也可按此穴，可通调水道、行气消胀，促进代谢和排便。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='cc41ee60f4d35d669a8712efdb157dbe', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img03.sogoucdn.com/app/a/200574/58a102a13294704fbf937c2874055519.jpg';
+        window.shareTitle = '水分穴的妙用';
+        window.shareSummary = '分流水湿。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

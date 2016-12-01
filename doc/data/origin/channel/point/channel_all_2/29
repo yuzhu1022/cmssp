@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    肩髃穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/10b9c71aa9e9876d6119eca7003cfe9f.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>肩髃穴</p></li>
+                                                    <li><span>【功效】</span><p>疏散经络风湿，清泄阳明气火，通利关节，祛邪解热。</p></li>
+                                                    <li><span>【主治】</span><p>主中风手足不遂，偏风，风痪，风痿，风病，半身不遂，热风肩中热，头不可回顾，肩臂疼痛臂无力，手不能向头，挛急，风热瘾疹，颜色枯焦，劳气泄精，伤寒热不已，四肢热，诸瘿气。唐鲁州刺史库狄嵚风痹，不能挽弓，甄权针肩髃，针进即可射。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在臂外侧，三角肌上，臂外展，或向前平伸时，当肩峰前下方向凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配肩髎、肩贞、臑俞等主治肩周炎；
+配曲池、外关、合谷主治上肢不遂。</p></li>
+                                                    <li><span>【按压方式】</span><p>躺在床上，放松肩膀，让别人轻轻揉按这个穴位3&mdash;5分钟。自己也可以做，先将右手搭到左肩，四指尽量展开，抓牢肩部，掌心紧贴肌肉，用大拇指做旋转按摩，同时其余四指做抓提按摩。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='3a9b7456f58ac4717b1403f89efec4e6', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/10b9c71aa9e9876d6119eca7003cfe9f.jpg';
+        window.shareTitle = '肩髃穴的妙用';
+        window.shareSummary = '疏散经络风湿，清泄阳明气火，通利关节，祛邪解热。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

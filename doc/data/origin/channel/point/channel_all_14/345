@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    神庭穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/4971728521a04253054e0ed78589a1b3.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>神庭穴</p></li>
+                                                    <li><span>【功效】</span><p>除湿化湿。</p></li>
+                                                    <li><span>【主治】</span><p>主登高而歌，弃衣而走。角弓反张，吐舌，癫疾风痫，目上视不识人，头风目眩，鼻出清涕不止，目泪出。惊悸不得安寝，呕吐烦满。寒热头痛，喘渴。张子和曰：目肿、目翳，针神庭、上星、囟会、前顶，翳者可使立退，肿者可使立消。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在头部，当前发际正中直上0.5寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配行间穴治目泪出；
+配囟会穴治中风不语；
+配兑端穴、承浆穴治癫痫呕沫；
+配水沟穴治寒热头痛、喘渴、目不可视；
+配太冲穴、太溪穴、阴郄穴、风池穴治肝阳上亢型头痛、眩晕、失眠等病症。</p></li>
+                                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='e4e3e4e33ccf73903f240d4273f8b8b0', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/4971728521a04253054e0ed78589a1b3.jpg';
+        window.shareTitle = '神庭穴的妙用';
+        window.shareSummary = '除湿化湿。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

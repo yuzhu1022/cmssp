@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    曲泉穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/56681069caffa4656cf56dc703292c0a.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>曲泉穴</p></li>
+                                                    <li><span>【功效】</span><p>清肝火、祛湿热。</p></li>
+                                                    <li><span>【主治】</span><p>主㿉疝，阴股痛，小便难，腹胁支满，癃闭，少气，泄利，四肢不举，实则身目眩痛，汗不出，目䀮䀮，膝关痛，筋挛不可屈伸，发狂，衄血下血，喘呼，小腹痛引咽喉，房劳失精，身体极痛，泄水下痢脓血，阴肿，阴茎痛，胻肿，膝胫冷疼，女子血瘕，按之如汤浸股内，小腹肿，阴挺出，</p></li>
+                                                    <li><span>【取穴方法】</span><p>在膝内侧，屈膝，当膝关节内侧端，股骨内侧髁的后缘，半腱肌、半膜肌止端的前缘凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配丘墟穴、阳陵泉穴治胆道疾患；
+配肝俞穴、肾俞穴、章门穴、商丘穴、太冲穴治肝炎；
+配复溜穴、肾俞穴、肝俞穴治肝肾阴虚之眩晕、翳障眼病；
+配支沟穴、阳陵泉穴治心腹疼痛、乳房胀痛、疝痛；
+配归来穴、三阴交穴治肝郁气滞之痛经、月经不调。</p></li>
+                                                    <li><span>【按压方式】</span><p>以大拇指垂直按压同侧曲泉穴，两手同时进行，每次5~8分钟，每日早晚各1次。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='edf5a545a72c4bb2fc6451d3d9ca785e', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/56681069caffa4656cf56dc703292c0a.jpg';
+        window.shareTitle = '曲泉穴的妙用';
+        window.shareSummary = '清肝火、祛湿热。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    彧中穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/f2307306cf5df8d74dd32f31506324b5.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>彧中穴</p></li>
+                                                    <li><span>【功效】</span><p>生气壮阳。</p></li>
+                                                    <li><span>【主治】</span><p>主咳逆喘息不能食，胸胁支满，涎出多唾。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在胸部，当第1肋间隙，前正中线旁开2寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配风门穴、肺俞穴治外邪袭肺；配天突穴、间使穴、华盖穴治咽喉肿痛。</p></li>
+                                                    <li><span>【按压方式】</span><p>用食指指腹按揉本穴，或用刮痧板隔着衣服由上至下刮拭本穴，每次3～5分钟，长期坚持按摩，能宽胸理气，增强心肺功能，改善胸胁胀满、心悸、气喘，预防心脏病、心肌炎。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='5ef59c8ea837fb3f26a5f532bfa33451', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/f2307306cf5df8d74dd32f31506324b5.jpg';
+        window.shareTitle = '彧中穴的妙用';
+        window.shareSummary = '生气壮阳。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

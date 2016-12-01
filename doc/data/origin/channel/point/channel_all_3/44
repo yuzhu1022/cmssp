@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    气冲穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/e2b4da274fa07b9e94e04d91e306f3d7.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>气冲穴</p></li>
+                                                    <li><span>【功效】</span><p>将冲脉之气渗灌胃经。</p></li>
+                                                    <li><span>【主治】</span><p>主腹满不得正卧，㿉疝，大肠中热，身热腹痛，大气石水，阴痿茎痛，两丸骞痛，小腹奔豚，腹有逆气上攻心，腹胀满，上抢心，痛不得息，腰痛不得俯仰，淫泺，伤寒胃中热，妇人无子，小肠痛，月水不利，妊娠子上冲心，生难胞衣不出。东垣曰：脾胃虚弱，感湿成痿，汗大泄，妨食，三</p></li>
+                                                    <li><span>【取穴方法】</span><p>在腹股沟稍上方，当脐中下5寸，距前正中线2寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配气海穴治肠鸣腹痛。</p></li>
+                                                    <li><span>【按压方式】</span><p>一松一按，交替进行，对促进腿部血液循环、温暖手足有益。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='946f0cf73ab7ac4ca71e37eb4c137377', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/e2b4da274fa07b9e94e04d91e306f3d7.jpg';
+        window.shareTitle = '气冲穴的妙用';
+        window.shareSummary = '将冲脉之气渗灌胃经。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

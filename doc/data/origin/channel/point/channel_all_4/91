@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    胸乡穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/8e55b3bf471d941ab5936f7c2ead2d68.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>胸乡穴</p></li>
+                                                    <li><span>【功效】</span><p>由本穴输散于脾经之外的胸部。外传脾气。</p></li>
+                                                    <li><span>【主治】</span><p>主胸胁支满，引胸背痛不得卧，转侧难。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在胸外侧部，当第3肋间隙，距前正中线6寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配膻中治胸肋胀痛。</p></li>
+                                                    <li><span>【按压方式】</span><p>拇指和其余四指微曲,如钳状夹持此处大筋,继而用力提拿深层肌肉,在指下产生滑动弹跳感最佳。此法刺激较强,每天早晚各一次,每次操作3-5下即可。疼痛过后局部温热,并有心胸豁然开朗之感。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='0089fffcca5d8eb00aa563d2d982a42b', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/8e55b3bf471d941ab5936f7c2ead2d68.jpg';
+        window.shareTitle = '胸乡穴的妙用';
+        window.shareSummary = '由本穴输散于脾经之外的胸部。外传脾气。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    颧髎穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/04cb3802e450e1334bbcbcd8865936c1.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>颧髎穴</p></li>
+                                                    <li><span>【功效】</span><p>治疗三叉神经痛、面神经麻痹、面肌痉挛等。</p></li>
+                                                    <li><span>【主治】</span><p>主口㖞，面赤目黄，眼瞤动不止，䪼肿齿痛。</p></li>
+                                                    <li><span>【取穴方法】</span><p>当目外眦直下，颧骨下缘凹陷处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配地仓、颊车治口歪；
+配合谷治齿痛、唇肿。
+配大迎治目瞤动（《百症赋》）；
+配合谷、翳风治三叉神经痛；
+配肝俞、太支治面肌痉挛、眼睑膶动（《俞穴学》）。</p></li>
+                                                    <li><span>【按压方式】</span><p>用双手中指指腹按揉颧髎穴穴位，由上而下按摩，每次按摩2分钟。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='20d71fa4eaf62ee988a50c6b9f5189da', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/04cb3802e450e1334bbcbcd8865936c1.jpg';
+        window.shareTitle = '颧髎穴的妙用';
+        window.shareSummary = '治疗三叉神经痛、面神经麻痹、面肌痉挛等。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

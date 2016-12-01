@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    大杼穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/1ed839e22d3155e646b5b85b84897b98.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>大杼穴</p></li>
+                                                    <li><span>【功效】</span><p>清热解表，强筋骨。</p></li>
+                                                    <li><span>【主治】</span><p>主膝痛不可屈伸，伤寒汗不出，腰脊痛，胸中郁郁，热甚不已，头风振寒，项强不可俯仰，痎疟，头旋，劳气咳嗽，身热目眩，腹痛，僵仆不能久立，烦满里急，身不安，筋挛癫疾，身蜷急大。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在背部，当第1胸椎棘突下，旁开1.5寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>大杼配夹脊、绝骨，有强筋骨，通经络，调气血的作用，主治颈椎病。
+大杼配列缺、尺泽，有理肺止咳平喘的作用，主治咳嗽，气喘。</p></li>
+                                                    <li><span>【按压方式】</span><p>感觉颈部酸痛、肩部不适的时候，可以按摩、拍打大杼穴，每天拍打按揉2~3次，每次10分钟，可以促进气血畅通。按摩大杼穴时会觉得酸痛感比较明显，但按摩之后会觉得舒服。也可以用梅花针敲打，每天敲打3到5次，每次5分钟，也会有非常不错的效果。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='f34c81cc02ca4376c4a0d1f4ce765e1b', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/1ed839e22d3155e646b5b85b84897b98.jpg';
+        window.shareTitle = '大杼穴的妙用';
+        window.shareSummary = '清热解表，强筋骨。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

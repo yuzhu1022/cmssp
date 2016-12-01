@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    急脉穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/a47258e6bdf7179f0c13155a6b7ea567.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>急脉穴</p></li>
+                                                    <li><span>【功效】</span><p>治疗少腹痛,月经不调,应挺,疝气,应茎痛,腿痛等。</p></li>
+                                                    <li><span>【主治】</span><p>主少腹痛，阴部痛，疝气。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在耻骨结节的外侧，当气冲外下腹股沟股动脉搏动处，前正中线旁开2.5寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配大敦穴治疝气、阴挺、阴茎痛、阳痿；
+配阴包穴、箕门穴、曲泉穴、足五里穴治下肢痿瘫、小儿麻痹。</p></li>
+                                                    <li><span>【按压方式】</span><p>防治静脉曲张，从小腹开始揉，一直揉到脚心，然后在急脉穴的位置用力按压，自己在心里从1默数到12，然后轻轻抬手，这时候如果感觉到一股热流通过静脉直冲脚踝，就代表收到效果了。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='457416f68d2f4975f4f265f9658dbea6', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/a47258e6bdf7179f0c13155a6b7ea567.jpg';
+        window.shareTitle = '急脉穴的妙用';
+        window.shareSummary = '治疗少腹痛,月经不调,应挺,疝气,应茎痛,腿痛等。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

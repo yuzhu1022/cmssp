@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    浮白穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img04.sogoucdn.com/app/a/200574/97795320c9c65668a78bce113022576d.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>浮白穴</p></li>
+                                                    <li><span>【功效】</span><p>有疏肝利胆、散风通经的作用。</p></li>
+                                                    <li><span>【主治】</span><p>主足不能行，耳聋耳鸣，齿痛，胸满不得息，胸痛，颈项瘿，痈肿不能言，肩臂不举，发寒热，喉痹，咳逆痰沫，耳鸣嘈嘈无所闻。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在头部，当耳后乳突的后上方，天冲与完骨的弧形连线的中三分之一与上三分之一交点处。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配风池、行间治偏头痛、目赤肿痛；
+配听会、中渚治耳鸣、耳聋；
+配肾俞、太溪、耳门治耳鸣、耳聋。</p></li>
+                                                    <li><span>【按压方式】</span><p>每日睡觉前和次日起床后，用双手的指头揉搓头皮，先自前额经头顶到枕部每次2～4分钟，每分钟来回揉搓30～40次，以后逐步延长到每次5～10分钟。只要长期坚持下去，待三四年后便可满头黑发。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='db5f9374622040dcf0f8fff88a6658fa', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img04.sogoucdn.com/app/a/200574/97795320c9c65668a78bce113022576d.jpg';
+        window.shareTitle = '浮白穴的妙用';
+        window.shareSummary = '有疏肝利胆、散风通经的作用。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

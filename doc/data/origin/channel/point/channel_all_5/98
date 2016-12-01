@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    少冲穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img02.sogoucdn.com/app/a/200574/4ff39c4b64c5845711503096a762a98e.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>少冲穴</p></li>
+                                                    <li><span>【功效】</span><p>生发心气，清热熄风，醒神开窍。</p></li>
+                                                    <li><span>【主治】</span><p>主热病烦满，上气，嗌干渴，目黄，臑臂内后廉痛，胸心痛，痰气，悲惊寒热，肘痛不伸。张洁古治前阴臊臭，泻肝行间，后于此穴，以治其标。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在小指末节桡侧，距指甲角0.1寸。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配太冲、中冲、大椎治热病、昏迷。</p></li>
+                                                    <li><span>【按压方式】</span><p>用拇指和食指揉捏另一只手小指两侧，按压时要注意力度稍重，每次按摩五分钟，每日按摩2次。</p></li>
+                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='537a8b321a43500ada5fef1235201f9b', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img02.sogoucdn.com/app/a/200574/4ff39c4b64c5845711503096a762a98e.jpg';
+        window.shareTitle = '少冲穴的妙用';
+        window.shareSummary = '生发心气，清热熄风，醒神开窍。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>

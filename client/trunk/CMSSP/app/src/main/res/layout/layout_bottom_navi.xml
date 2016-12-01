@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/naviRadioGroup"
+android:layout_width="match_parent"
+android:layout_height="48dp"
+android:gravity="center_vertical"
+android:layout_alignParentBottom="true"
+android:background="@color/black_161212"
+android:orientation="horizontal">
+
+<RadioButton
+    style="@style/radioStyle"
+    android:drawableTop="@drawable/navi_disease"
+    android:id="@+id/btnDisease"
+    android:textSize="0sp"
+    android:text="disease"/>
+
+<RadioButton
+    style="@style/radioStyle"
+    android:textSize="0sp"
+    android:text="massage"
+    android:drawableTop="@drawable/navi_massage"
+    android:id="@+id/btnChannel" />
+
+<RadioButton
+    style="@style/radioStyle"
+    android:textSize="0sp"
+    android:text="drugmaterial"
+    android:drawableTop="@drawable/navi_drugmaterial"
+    android:id="@+id/btnDrug" />
+
+<RadioButton
+    style="@style/radioStyle"
+    android:textSize="0sp"
+    android:text="sense"
+    android:drawableTop="@drawable/navi_sense"
+    android:id="@+id/btnCMSense" />
+</RadioGroup>

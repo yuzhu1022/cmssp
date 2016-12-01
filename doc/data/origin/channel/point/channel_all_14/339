@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <title>    囟会穴
+</title>
+    <link href="/zhongyibang/yian/css/reset.css?v=1" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/case.css?v=3" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/cm.css?v=7" rel="stylesheet" type="text/css">
+    <link href="/zhongyibang/yian/css/banner.css" rel="stylesheet" type="text/css">
+    <script src="/zhongyibang/js/zepto.min.js"></script>
+</head>
+
+<body class="bg-fff">
+                    <section class="acupoint-info">
+                    <div class="a-img"><img src="http://img03.sogoucdn.com/app/a/200574/b789d7249f58f065c7f6d443bc5d92d6.jpg" alt=""></div>
+        
+        <div class="case-content">
+            <ul class="info-list">
+                                    <li><span>【穴位名】</span><p>囟会穴</p></li>
+                                                    <li><span>【功效】</span><p>补益肺气，传导水湿。</p></li>
+                                                    <li><span>【主治】</span><p>主脑虚冷，或饮酒过多，脑疼如破，衄血，面赤暴肿，头皮肿。生白屑风，头眩，颜青目眩，鼻塞不闻香臭，惊悸，目戴上不识人。</p></li>
+                                                    <li><span>【取穴方法】</span><p>在头部，当前发际正中直上2寸（百会前3寸）。</p></li>
+                                                    <li><span>【穴位配伍】</span><p>配头维穴、太阳穴、合谷穴缓解治疗头痛目眩；
+配前顶穴、天柱穴、本神穴缓解治疗小儿惊痫；
+配人中穴、十宣穴缓解治疗中风昏迷、癫痫；
+配血海穴、支沟穴缓解治疗血虚头晕；
+配玉枕穴缓解治疗头风。</p></li>
+                                            </ul>
+        </div>
+    </section>
+    <script src="/zhongyibang/js/main.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="/zhongyibang/js/wxshare.js" type="text/javascript"></script>
+    <script>
+        var type = 'patent_presc', id='da963e7108a90993e09547b5c3950196', collectId='0';
+        callAppCollect(type, id, collectId);
+        //app分享相关
+        window.appImgUrl = 'http://img03.sogoucdn.com/app/a/200574/b789d7249f58f065c7f6d443bc5d92d6.jpg';
+        window.shareTitle = '囟会穴的妙用';
+        window.shareSummary = '补益肺气，传导水湿。';
+
+        appShare(appImgUrl, shareTitle, shareSummary);
+
+        //微信二次分享
+        var shareParams = {
+            'timeLineTitle': shareTitle + '。' + shareSummary,
+            'title': shareTitle,
+            'link': window.location.href,
+            'imgUrl': appImgUrl,
+            'desc': shareSummary
+        }
+
+        wxShare(shareParams);
+
+        //统计相关
+        var uigs_para = {
+            "uigs_productid":"zhongyi",
+            'type': 'yian',
+            "page_type":"point_detail",
+            "uigs_pbtag": "A"
+        }
+    </script>
+    <script src="/zhongyibang/js/pb_v.1.9.2.min.js"></script>
+</body>
+<!--zly-->
+</html>
