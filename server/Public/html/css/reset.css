@@ -1,0 +1,12 @@
+/*reset*/
+h1,h2,h3,h4,h5,h6,ul,li,body,dl,ol,dt,dd,td,img,th,p,form,div,input{margin:0;padding:0}
+body{font-size:15px;background:#fff;font-family:Arial, Microsoft YaHei, SimHei,Helvetica, sans-serif;font-size-adjust:none;-webkit-text-size-adjust:none;word-break:break-all;word-wrap:break-word;color:#333333}
+h1,h2,h3,h4,h5,h6{font-weight:normal}
+ul,li,ol{list-style-type:none}
+input{outline:none}
+input[type="search"]::-webkit-search-cancel-button{display:none}
+img{border:0}
+a{color:#982225;text-decoration:none}
+table{border-collapse:collapse;font-size:15px}
+.bg-cefefef{background-color: #efefef;}
+/*end reset*/

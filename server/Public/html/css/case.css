@@ -1,0 +1,81 @@
+.case-top { height: 44px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; background-color: #982225; padding: 0 0 0 15px; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; border-bottom: 1px solid #9d866a; position: fixed; top: 0; left: 0; width: 100%; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; z-index: 100; }
+.case-top .mian-title { width: 70px; height: 17px; overflow: hidden; background: url(../images/case/case_skin.png) no-repeat; background-size: 150px auto; }
+.case-top a { width: 120px; height: 44px; display: block; background-color: #831c1f; text-align: center; color: #fff; font-size: 12px; line-height: 44px; }
+.case-top a:before { content: ''; display: inline-block; width: 9px; height: 15px; overflow: hidden; margin-right: 5px; background: url(../images/case/case_skin.png) no-repeat; background-size: 150px auto; background-position: 0 -23px; position: relative; top: 3px; opacity: .36; }
+
+.main-wrap .case-patient h4:before, .case-info .d-name-ico:before, .case-info .d-info-ico:before, .case-info .d-plan-ico:before, .case-info .d-recipe-ico:before { content: ''; display: inline-block; margin-right: 5px; background: url(../images/case/case_skin.png) no-repeat; background-size: 150px auto; overflow: hidden; position: relative; top: 3px; }
+
+.main-wrap { padding: 54px 10px 10px; }
+.main-wrap section { background-color: #fff; box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03); }
+.main-wrap section + section { margin-top: 10px; }
+.main-wrap .case-patient { padding: 11px 15px 11px; }
+.main-wrap .case-patient h4 { font-size: 18px; font-weight: bold; line-height: 24px; }
+.main-wrap .case-patient h4 span { margin-right: 15px; color: #333; }
+.main-wrap .case-patient h4:before { width: 17px; height: 18px; background-position: 0 -46px; }
+.main-wrap .case-patient p { line-height: 22px; color: #aaa; }
+.main-wrap .case-patient p span { margin-right: 15px; }
+
+.case-info { padding: 0 15px; font-size: 14px; }
+.case-info li { padding: 12px 0; }
+.case-info li + li { border-top: 1px solid #f2f0f0; }
+.case-info li h4 { font-size: 16px; line-height: 22px; margin-bottom: 10px; }
+.case-info li p { line-height: 18px; font-size: 14px; }
+.case-info .d-name-ico:before { width: 14px; height: 19px; background-position: 0 -68px; }
+.case-info .d-info-ico:before { width: 20px; height: 20px; background-position: -26px -23px; }
+.case-info .d-plan-ico:before { width: 17px; height: 17px; background-position: -26px -46px; }
+.case-info .d-recipe-ico:before { width: 17px; height: 16px; background-position: -26px -68px; }
+.case-info .img-box { width: 83px; height: 83px; overflow: hidden; display: block; margin: 11px 0 3px; }
+.case-info .img-box img { width: 100%; }
+.case-info .recipe-info { display: block; color: #333; margin-bottom: -8px; }
+.case-info .recipe-info span { display: inline-block; margin-right: 15px; line-height: 20px; margin-bottom: 8px; }
+
+.bn-box { display: block; }
+.bn-box img { width: 100%; display: block; }
+
+.case-tit { margin-left: 15px; line-height: 50px; border-bottom: 1px solid #f2f0f0; font-size: 18px; }
+
+.case-content .info-list { margin: 0 15px; line-height: 24px; }
+.case-content .info-list > li { padding: 7px 0; }
+.case-content .info-list > li:first-child { padding-top: 15px; }
+.case-content .info-list > li span { margin-left: -7px; color: #999; }
+
+.case-item { background-color: #fff; margin-bottom: 10px; border-top: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; border-width: 1px 0; border-style: solid; -webkit-border-image: url("../images/border.png") 2 2 repeat; -o-border-image: url("../images/border.png") 2 2 repeat; border-image: url("../images/border.png") 2 2 repeat; padding-bottom: 5px; }
+
+.case-tab { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; padding: 10px 0; border-bottom: 1px solid #ECECEC; position: fixed; top: 0; background-color: #fff; width: 100%;}
+.case-tab a { display: block; padding: 0 10px; color: #333; font-size: 14px; border-radius: 2px; height: 20px; line-height: 20px; }
+.case-tab .cur a { background-color: #f5e8e9; color: #982225; }
+
+.case-tit01 { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; border-bottom: 1px solid #f2f0f0; font-size: 16px; line-height: 45px; padding: 0 15px; }
+
+.sub-tit { padding: 10px 15px 5px; font-size: 15px; font-weight: bold; line-height: 25px; color: #982225; }
+
+.sub-tit + .info-list { margin-top: -10px; }
+
+.case-content + .case-content { margin-top: 5px; }
+.case-content + .case-content .sub-tit { border-top: 1px solid #ECECEC; margin-left: 15px; padding-left: 0; }
+
+.case-content .info-list .case-recipe span { color: #333; }
+
+.case-recipe { background: url(../images/prescription01.png) repeat-x; background-size: 9px auto; background-color: #f8f4d8; padding: 0 15px; font-size: 0lh 0; padding-top: 4px; overflow: hidden; margin-bottom: 5px; margin-top: 5px; }
+.case-recipe div { background: url(../images/cm_x.png) repeat; background-size: auto 45px; margin-bottom: -1px; }
+.case-recipe span, .case-recipe a { font-size: 16px; display: inline-block; line-height: 45px; margin-right: 20px; color: #333; }
+
+.bandwave { border-radius: 2px; height: 20px; border: 1px solid #982225; line-height: 20px; font-size: 12px; color: #982225; width: 90px; display: block; text-align: center; margin: 15px auto 0; }
+article.with-padding-top {padding-top: 40px;}
+
+
+.a-img { border: 1px solid #d6d6d6; margin: 15px 15px 5px; }
+.a-img img { width: 100%; display: block; }
+
+.acupoint-list { overflow: hidden; margin-left: -10px; margin-bottom: -5px; margin-top: 5px; }
+.acupoint-list li { float: left; width: 33.333%; padding-left: 10px; box-sizing: border-box; padding-bottom: 10px; }
+.acupoint-list a { display: block; color: #333; background-color: #f8eff0; text-align: center; font-size: 13px; line-height: 18px; padding: 5px 0; height: 30px; }
+.acupoint-list i { font-style: normal; display: block; font-size: 9px; line-height: 12px; }
+
+.case-content .info-list li.pt10 { padding-top: 10px; }
+.case-content .info-list li span.highlight { color:#9e1b1b; }
+
+.a-img-01 { border: 1px solid #d6d6d6; margin: 5px 0; }
+.a-img-01 img { width: 100%; display: block; }
+
+.img-wrap img {width: 100%}
