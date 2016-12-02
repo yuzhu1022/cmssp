@@ -39,4 +39,6 @@ captures/
 # Keystore files
 *.jks
 
-.svn
+.idea
+
+local.properties
