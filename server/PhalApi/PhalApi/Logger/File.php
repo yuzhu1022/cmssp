@@ -36,7 +36,7 @@ class PhalApi_Logger_File extends PhalApi_Logger {
 
         parent::__construct($level);
         
-        $this->init();
+        // $this->init();
     }
 
     protected function init() {
@@ -77,6 +77,6 @@ class PhalApi_Logger_File extends PhalApi_Logger {
 
         $content = implode('|', $msgArr) . PHP_EOL;
 
-        file_put_contents($this->logFile, $content, FILE_APPEND);
+        // file_put_contents($this->logFile, $content, FILE_APPEND);
     }
 }

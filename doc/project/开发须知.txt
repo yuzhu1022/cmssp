@@ -16,4 +16,15 @@
 php 模块 一般需要新建 三个类分别放置在Cmssp目录下的 /Api /Domain /Model下 ，工具模块放在common下。
 
 查询所有PHP接口列表，直接访问链接
-http://2.niubility.applinzi.com/server/trunk/PhalApi/Public/cmssp/listAllApis.php
+http://cmssp.applinzi.com/Public/cmssp/listAllApis.php
+
+
+导出与打包
+keystore:cmssp.keystore
+pass:3578793
+
+alias:cmssp
+
+name:Lamber
+unit:Lamber studio
+country code:86
