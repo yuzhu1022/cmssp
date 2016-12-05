@@ -1,3 +1,66 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: 2016-11-22 10:40:14
+-- 服务器版本： 10.1.16-MariaDB
+-- PHP Version: 5.6.24
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `cmssp`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `cmssp_channel`
+--
+
+CREATE TABLE `cmssp_channel` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `pic` varchar(45) COMMENT '图片地址',
+  `effect` text COMMENT '经脉主治',
+  `visc` varchar(10) COMMENT '经脉所属',
+  `name` varchar(45) DEFAULT NULL COMMENT '经脉名称',
+  `time` varchar(45) DEFAULT NULL COMMENT '24小时制时间',
+  `shichen` varchar(45) DEFAULT NULL COMMENT '古时',
+  `ext_data` text COMMENT 'json data here'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `cmssp_channel`
+--
+ALTER TABLE `cmssp_channel`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- 在导出的表使用AUTO_INCREMENT
+--
+
+--
+-- 使用表AUTO_INCREMENT `cmssp_channel`
+--
+ALTER TABLE `cmssp_channel`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
 INSERT INTO `cmssp_channel`(`id`, `pic`, `effect`, `visc`, `name`, `time`, `shichen`, `ext_data`) VALUES (null,'http://img04.sogoucdn.com/app/a/200574/3b86bbf038dae7bb874708fc06cde0bf.jpg','是动则病，肺胀满，膨膨而喘咳，缺盆中痛，甚则交两手而瞀，此为臂厥。 是主肺所生病者，咳，上气，喘喝，烦心，胸满，臑臂内前廉痛厥，掌中热。 气盛有余，则肩背痛，风寒汗出中风，小便数而欠；气虚则肩背痛、寒，少气不足以息，溺色变。','肺','手太阴肺经','3-5点','寅时','肺手太阴之脉，起于中焦,下络大肠,还循胃口,上隔属肺。从肺系，横出腋下,下循臑内，行少阴、心主之前，下肘中，循臂内上骨下廉，入寸口，上鱼，循鱼际，出大指之端。 其支者：从腕后，直出次指内廉，出其端。');
 INSERT INTO `cmssp_channel`(`id`, `pic`, `effect`, `visc`, `name`, `time`, `shichen`, `ext_data`) VALUES (null,'http://img03.sogoucdn.com/app/a/200574/3c4b9f94a694ac32d4f25508de399a0f.jpg','是动则病，齿痛，颈肿。是主津所生病者：目黄，口干，鼽衄，喉痹，肩前臑痛，大指次指痛不可用。气有余，则当脉所过者热肿；虚，则寒栗不复。','大肠','手阳明大肠经','5-7点','卯时','大肠手阳明之脉，起于大指次指之端，循指上廉，出合谷两骨之间，上入两筋之中，循臂上廉，入肘外廉，上臑外前廉，上肩，出颙骨之前廉，上出于柱骨之会上，下入缺盆，络肺，下隔，属大肠。其支者:从缺盆上颈，贯颊，入下齿中；还出夹口，交人中-左之右，右之左，上夹鼻孔。');
 INSERT INTO `cmssp_channel`(`id`, `pic`, `effect`, `visc`, `name`, `time`, `shichen`, `ext_data`) VALUES (null,'http://img01.sogoucdn.com/app/a/200574/00dcadca455d31da5dcb4ac314b05aac.jpg','是动则病，洒洒振寒，善伸，数欠，颜黑，病至则恶人与火，闻木声则惕然而惊，心欲动，独闭户塞牖而处；甚则欲上高而歌，弃衣而走；贲响腹胀，是为骭厥。是主血所生病者：狂，疟，温淫，汗出，鼽衄，口歪，唇胗，颈肿，喉痹，大腹水肿，膝髌肿痛；循膺、乳、气街、股、伏兔、骭外廉、足跗上皆痛，中指不用。气盛，则身以前皆热，其有余于胃，则消谷善饥，溺色黄；气不足，则身以前皆寒栗，胃中寒，则胀满。','胃','足阳明胃经','7-9点','辰时','胃足阳明之脉，起于鼻，交頞中，旁约太阳之脉，下循鼻外，入上齿中，还出夹口，环唇，下交承浆，却循颐后下廉，出大迎，循颊车，上耳前，过客主人，循发际，至额颅。其支者：从大迎前，下人迎，循喉咙，入缺盆，下膈，属胃，络脾。其直者：从缺盆下乳内廉，下夹脐，入气街中。其支者：起于胃口，下循腹里，下至气街中而合。以下髀关，抵伏兔，下膝髌中，下循胫外廉，下足跗，入中指内间。其支者：下膝三寸而别，下入中指外间。其支者：别跗上，入大指间，出其端。');
