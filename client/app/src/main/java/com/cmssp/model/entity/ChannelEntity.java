@@ -19,6 +19,9 @@ public class ChannelEntity {
     public List<PointEntity> points;
 
     public String getShowTime(){
+        if(shichen.equals("") || shichen == null){
+            return "";
+        }
         return shichen+"("+time+")";
     }
 }

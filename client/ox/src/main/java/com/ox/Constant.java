@@ -6,5 +6,5 @@ package com.ox;
 public class Constant {
     public static boolean DEBUG_MODE = true ;
 
-    public static boolean openMock = DEBUG_MODE && true;
+    public static boolean openMock = DEBUG_MODE && false;
 }

@@ -79,7 +79,13 @@ public class ChannelFragment extends BaseFragment{
                 };
 
                 helper.setText(R.id.channelName , item.name);
-                helper.setText(R.id.channelTime , item.getShowTime());
+
+                if (item.getShowTime().equals("")){
+                    helper.setVisible(R.id.channelTime , View.GONE);
+                }
+                else{
+                    helper.setText(R.id.channelTime , item.getShowTime());
+                }
 //                helper.setImageUrl(R.id.channelImage , item.pic , false);
                 GridView gridView = helper.getView(R.id.points);
                 mGridAdapter.addAll(item.points);

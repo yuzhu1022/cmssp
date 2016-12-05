@@ -1,13 +1,28 @@
-1.开发相关
 git 地址：
     http://github.com/hucaihua/cmssp
+
+PhalApi doc ： 
+	http://www.phalapi.net/wikis/
+	
+	
+
+1.线上服务器
+	
+
+
+
+2.本地测试服务器
+
+
+1.开发相关
+
 API地址  
 	本地地址
 	http://localhost/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1&__test__=1
 	SAE地址
 	http://cmssp.applinzi.com/Public/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1
 	
-PhalApi doc ： http://www.phalapi.net/wikis/
+
 	
 	
 2.文档相关
