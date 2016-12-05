@@ -1,11 +1,11 @@
 1.开发相关
-SVN 地址：
-    https://svn.sinacloud.com/niubility/2
+git 地址：
+    http://github.com/hucaihua/cmssp
 API地址  
 	本地地址
-	http://localhost/PhalApi/Public/cmssp/
+	http://localhost/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1
 	SAE地址
-	http://2.niubility.applinzi.com/server/trunk/PhalApi/Public/cmssp
+	http://cmssp.applinzi.com/Public/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1
 	
 PhalApi doc ： http://www.phalapi.net/wikis/
 	
@@ -23,3 +23,5 @@ PhalApi doc ： http://www.phalapi.net/wikis/
 	table前缀：cmssp_
 	用户名：cmssp
 	pass : cmssp2016
+	
+4.如需看sql执行情况，可在请求地址后加参数 &__sql__=1
