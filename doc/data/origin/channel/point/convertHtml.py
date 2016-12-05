@@ -41,9 +41,9 @@ if __name__ == '__main__':
 
 	setCoding()
 	
-	start = 1
+	start = 358
 	
-	end = 461
+	end = 363
 	
 	result = ""
 	
