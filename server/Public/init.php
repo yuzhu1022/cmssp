@@ -18,7 +18,7 @@ $loader = new PhalApi_Loader(API_ROOT, 'Library');
 DI()->loader = $loader;
 
 //配置
-DI()->config = new PhalApi_Config_File(API_ROOT . '/Config');
+DI()->config = !empty($_GET['__test__']) ? new PhalApi_Config_File(API_ROOT . '/Config'):new PhalApi_Config_File(API_ROOT . '/Config_prod');
 
 //调试模式，$_GET['__debug__']可自行改名
 DI()->debug = !empty($_GET['__debug__']) ? true : DI()->config->get('sys.debug');

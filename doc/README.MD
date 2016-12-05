@@ -3,7 +3,7 @@ git 地址：
     http://github.com/hucaihua/cmssp
 API地址  
 	本地地址
-	http://localhost/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1
+	http://localhost/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1&__test__=1
 	SAE地址
 	http://cmssp.applinzi.com/Public/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1
 	
