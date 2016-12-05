@@ -15,7 +15,9 @@ public class Const {
 
     /******************网络请求相关*******************/
     public static final String AUTH_TOKEN = "PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU";
-    public static final String NET_BASE_URL = "http://2.niubility.applinzi.com/server/trunk/PhalApi/Public/";
+    public static final String NET_BASE_URL = "http://cmssp.applinzi.com/Public/";
+
+    public static final String HTML_BASE_URL = "http://cmssp.applinzi.com/html/";
 //    public static final String NET_BASE_URL = "http://192.168.253.1/";
 
     //接口列表

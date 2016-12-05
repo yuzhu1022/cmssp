@@ -2,6 +2,7 @@ package com.cmssp.module.massage;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -11,6 +12,7 @@ import com.cmssp.model.entity.ChannelEntity;
 import com.cmssp.model.entity.ChannelListEntity;
 import com.cmssp.model.entity.PointEntity;
 import com.cmssp.model.repository.ChannelRepo;
+import com.cmssp.module.WebViewActivity;
 import com.ox.adapter.Adapter;
 import com.ox.adapter.AdapterHelper;
 import com.ox.adapter.RecyclerAdapter;
@@ -18,6 +20,7 @@ import com.ox.adapter.RecyclerAdapterHelper;
 import com.ox.base.BaseEntity;
 import com.ox.base.BaseFragment;
 import com.ox.data.retrofit.DefaultSubscriber;
+import com.ox.utils.ActivityUtil;
 import com.ox.utils.LayoutUtil;
 import com.ox.utils.ToastUtils;
 import com.ox.widgets.pullToRefreshView.OXRecyclerView;
@@ -39,9 +42,18 @@ public class ChannelFragment extends BaseFragment{
 
     private RecyclerAdapter<ChannelEntity> mAdapter;
 
+    private AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            long pointId = (long)view.getTag();
+
+            ActivityUtil.start(mContext , WebViewActivity.class , Const.HTML_BASE_URL + pointId + ".html");
+        }
+    };
+
     @Override
     protected int getLayout() {
-        return R.layout.layout_fragment_point;
+        return R.layout.layout_fragment_channel;
     }
 
     @Override
@@ -60,19 +72,20 @@ public class ChannelFragment extends BaseFragment{
                     protected void convert(AdapterHelper helper, PointEntity item) {
                         helper.setText(R.id.pointName ,item.name);
                         helper.setText(R.id.pointTone ,item.tone);
+
+                        View gridItemView = helper.getItemView();
+                        gridItemView.setTag(item.id);
                     }
                 };
 
                 helper.setText(R.id.channelName , item.name);
                 helper.setText(R.id.channelTime , item.getShowTime());
-                helper.setImageUrl(R.id.channelImage , item.pic , false);
+//                helper.setImageUrl(R.id.channelImage , item.pic , false);
                 GridView gridView = helper.getView(R.id.points);
-
-//                double itemHeight = helper.getItemView().getMeasuredHeight();
-//                double rows = Math.ceil(item.points.size()/gridView.getNumColumns());
                 mGridAdapter.addAll(item.points);
-
                 gridView.setAdapter(mGridAdapter);
+
+                gridView.setOnItemClickListener(itemClickListener);
             }
         };
 

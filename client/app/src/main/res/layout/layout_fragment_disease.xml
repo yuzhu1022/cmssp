@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-    <include layout="@layout/layout_fragment_title"></include>
+    <include layout="@layout/layout_title"></include>
 
 
     <include layout="@layout/layout_recycler"></include>

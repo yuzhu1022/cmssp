@@ -21,6 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".module.main.CMMainActivity"></activity>
+
+        <activity android:name="com.cmssp.module.WebViewActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -21,11 +21,11 @@
             android:id="@+id/channelTime"/>
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/channelImage"
-        android:layout_gravity="center"
-        android:layout_width="200dp"
-        android:layout_height="300dp" />
+    <!--<ImageView-->
+        <!--android:id="@+id/channelImage"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="300dp" />-->
 
     <com.ox.widgets.CustomGrideView
         android:id="@+id/points"
