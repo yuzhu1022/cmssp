@@ -7,5 +7,6 @@ import java.util.List;
  */
 public class ChannelListEntity {
     public int pageNumber;
+    public int versionNumber;
     public List<ChannelEntity> channelEntityList;
 }

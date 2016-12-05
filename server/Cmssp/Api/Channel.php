@@ -41,6 +41,7 @@ class Api_Channel extends PhalApi_Api {
         $rs = array();
 		
         $rs['pageNumber'] = $this->pageNumber;
+		$rs['versionNumber'] = 1;
 		
 		//check params
 		$this->pageNumber = intval($this->pageNumber) or 0;

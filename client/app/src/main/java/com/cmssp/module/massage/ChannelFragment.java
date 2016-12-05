@@ -38,6 +38,8 @@ public class ChannelFragment extends BaseFragment{
     @BindView(R.id.title)
     TextView title;
 
+    private int potinVersion = 0;
+
     private int mCurrentPage = 0;
 
     private RecyclerAdapter<ChannelEntity> mAdapter;
@@ -47,7 +49,7 @@ public class ChannelFragment extends BaseFragment{
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             long pointId = (long)view.getTag();
 
-            ActivityUtil.start(mContext , WebViewActivity.class , Const.HTML_BASE_URL + pointId + ".html");
+            ActivityUtil.start(mContext , WebViewActivity.class , Const.HTML_BASE_URL + pointId + ".html?version="+potinVersion);
         }
     };
 
@@ -131,6 +133,8 @@ public class ChannelFragment extends BaseFragment{
                             ChannelListEntity listEntity = result.data;
                             if(!listEntity.channelEntityList.isEmpty()){
                                 mAdapter.addAll(listEntity.channelEntityList);
+
+                                potinVersion = listEntity.versionNumber;
                             }
                         }
                     }
