@@ -41,4 +41,11 @@ public class LayoutUtil {
                 .sizeResId(R.dimen.six)
                 .build();
     }
+
+    public static HorizontalDividerItemDecoration getHorizontalDivider_3(Context context) {
+        return new HorizontalDividerItemDecoration.Builder(context)
+                .color(Color.parseColor("#f5f5f5"))
+                .sizeResId(R.dimen.three)
+                .build();
+    }
 }

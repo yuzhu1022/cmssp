@@ -49,7 +49,7 @@ public class DiseaseFragment extends BaseFragment {
 
         title.setText(R.string.disease);
 
-        mAdapter = new RecyclerAdapter<DiseaseEntity>(mContext , R.layout.layout_disease_item_desc) {
+        mAdapter = new RecyclerAdapter<DiseaseEntity>(mContext , R.layout.layout_disease_item) {
             @Override
             protected void convert(RecyclerAdapterHelper helper, DiseaseEntity item) {
                 helper.setText(R.id.disease_desc_dname , item.name);

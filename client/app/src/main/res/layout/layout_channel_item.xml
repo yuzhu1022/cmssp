@@ -13,6 +13,7 @@
         <TextView
             style="@style/style_channel_title"
             android:id="@+id/channelName"
+
             android:text="手太阴肺经" />
 
         <TextView
