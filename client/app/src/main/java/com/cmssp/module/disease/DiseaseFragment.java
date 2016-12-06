@@ -60,7 +60,7 @@ public class DiseaseFragment extends BaseFragment {
         };
 
         contentView.setAdapter(mAdapter);
-        contentView.addItemDecoration(LayoutUtil.getHorizontalDivider_6(mContext));
+        contentView.addItemDecoration(LayoutUtil.getHorizontalDivider_3(mContext));
     }
 
     @Override
