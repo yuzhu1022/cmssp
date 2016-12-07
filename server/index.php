@@ -1,5 +1,3 @@
 <?php
 
-var_dump($_POST);
-
-var_dump($_GET);
+echo "I am server two : ip 192.168.1.112";

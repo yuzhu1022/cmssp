@@ -7,9 +7,6 @@ import com.ox.base.BaseApplication;
 import com.ox.data.retrofit.RetrofitClient;
 import com.ox.utils.SingletonUtils;
 
-import io.realm.Realm;
-import io.realm.RealmConfiguration;
-
 /**
  * Created by Administrator on 2016/9/27.
  */
