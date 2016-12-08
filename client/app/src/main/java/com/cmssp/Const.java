@@ -27,4 +27,12 @@ public class Const {
 
     /******************错误码*******************/
     public static final int ERROR_OK = 200;
+
+
+
+    /******************tag标签分类 0 - 常见疾病 1 - 穴位按摩 2 - 药方药材 3 - 其他*******************/
+    public static final int TAG_DISEASE = 0 ;
+    public static final int TAG_CHANNEL = 1 ;
+    public static final int TAG_DRUG = 2 ;
+    public static final int TAG_OTHER = 3 ;
 }

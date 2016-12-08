@@ -2,7 +2,6 @@ package com.ox.base;
 
 import android.app.Application;
 import android.content.Context;
-import android.os.Build;
 
 /**
  * Created by Administrator on 2016/11/3.

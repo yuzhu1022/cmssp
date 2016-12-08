@@ -20,7 +20,7 @@ PhalApi doc ：
 		http://localhost/cmssp/?service=Channel.GetList&token=PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU&pageNumber=1&__test__=1
 
 	接口查询地址：
-		http://localhost/cmssp/listAllApis.php
+		http://localhost/cmssp/listAllApis.php&__test__=1
 		
 		
 

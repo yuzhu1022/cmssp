@@ -1,11 +1,7 @@
 package com.cmssp;
 
-import android.app.Application;
-import android.content.Context;
-
 import com.ox.base.BaseApplication;
 import com.ox.data.retrofit.RetrofitClient;
-import com.ox.utils.SingletonUtils;
 
 /**
  * Created by Administrator on 2016/9/27.
