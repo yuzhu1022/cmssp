@@ -1,0 +1,6 @@
+﻿`tag` VARCHAR(200) COMMENT '标签',
+`name` VARCHAR(45) COMMENT '药名', 
+`tone` VARCHAR(45) COMMENT '拼音', 
+`icon` text COMMENT 'icon', 
+`summary` text COMMENT '概述', 
+`usage` text COMMENT '应用', 
