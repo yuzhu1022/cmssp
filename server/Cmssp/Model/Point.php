@@ -26,6 +26,20 @@ class Model_Point extends PhalApi_Model_NotORM {
 		$rs = $mysql->select('*')->where("channelId = ?" , $channelId)->fetchAll();
 		return $rs;
     }
+	
+	public function loadFTS(){
+		$rs = array();
+		
+		$mysql = $this->getORM();
+		
+		$rs = $mysql->select('id , tag , name')->fetchAll();
+		
+		foreach($rs as $key=>&$val){
+			$val['type'] = 1;
+		}
+		
+		return $rs;
+	}
 
     protected function getTableName($id) {
         return 'point';

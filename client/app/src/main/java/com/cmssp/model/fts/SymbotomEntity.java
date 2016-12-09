@@ -6,9 +6,9 @@ import android.provider.BaseColumns;
  * Created by Administrator on 2016/12/7.
  */
 
-public class SymbotomTagEntity implements BaseColumns{
+public class SymbotomEntity implements BaseColumns{
     private int type = 0;
-    private String content = "";
+    private String content = "";// tag and title json
     private String name = "";
     private int id = -1; // 对应模块的id
 

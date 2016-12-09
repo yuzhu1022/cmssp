@@ -1,0 +1,34 @@
+<?php
+/**
+ * Api_FTS
+ * @author hch 2016-11-22 09:43:24
+ */
+
+class Api_FTS extends PhalApi_Api {
+
+    public function getRules() {
+        return array(
+            'load' => array(
+				
+            ),
+        );
+    }
+
+    /**
+     * load
+     * @desc 获取FTS数据
+	 * @return ret 返回码 类似http请求 2XX 4XX 5XX
+	 * @return msg 请求描述
+	 * @return data 实际返回数据
+	 * @return array FTS 检索数据
+     */
+    public function load() {
+        $rs = array();
+		
+		//fetch data
+        $domain = new Domain_FTS();
+        $rs['FTS'] = $domain->loadFTS();
+		// return
+        return $rs;
+    }
+}

@@ -29,6 +29,20 @@ class Model_Disease extends PhalApi_Model_NotORM {
 		}
 		return $rs;
     }
+	
+	public function loadFTS(){
+		$rs = array();
+		
+		$mysql = $this->getORM();
+		
+		$rs = $mysql->select('id , tag , name')->fetchAll();
+		
+		foreach($rs as $key=>&$val){
+			$val['type'] = 0;
+		}
+		
+		return $rs;
+	}
 
     protected function getTableName($id) {
         return 'disease';

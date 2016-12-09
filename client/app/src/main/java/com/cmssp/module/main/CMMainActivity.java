@@ -9,7 +9,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 import com.cmssp.R;
-import com.cmssp.module.cmsense.SenseFragment;
+import com.cmssp.module.cmsense.FTSFragment;
 import com.cmssp.module.disease.DiseaseFragment;
 import com.cmssp.module.drug.DrugMaterialFragment;
 import com.cmssp.module.massage.ChannelFragment;
@@ -29,8 +29,8 @@ public class CMMainActivity extends BaseActivity {
     private ChannelFragment channelFragment;
     //药材药方
     private DrugMaterialFragment drugMaterialFragment;
-    //中医常识
-    private SenseFragment cMSenseFragment;
+    //FTS搜索
+    private FTSFragment fTSFragment;
 
     private FragmentManager mFragmentManager;
 
@@ -38,10 +38,10 @@ public class CMMainActivity extends BaseActivity {
 
     private List<BaseFragment> allFragments;
 
-    private static final int INDEX_DISEASEFRAGMENT = 0;
-    private static final int INDEX_CHANNELPOINTFRAGMENT = 1;
-    private static final int INDEX_DRUGMATERIALFRAGMENT = 2;
-    private static final int INDEX_CMSENSEFRAGMENT = 3;
+    private static final int INDEX_FTSFRAGMENT = 0;
+    private static final int INDEX_DISEASEFRAGMENT = 1;
+    private static final int INDEX_CHANNELPOINTFRAGMENT = 2;
+    private static final int INDEX_DRUGMATERIALFRAGMENT = 3;
 
     private final String SAVE_FRAGMENT_INDEX = "SAVE_FRAGMENT_INDEX";
 
@@ -100,8 +100,8 @@ public class CMMainActivity extends BaseActivity {
         diseaseFragment = (DiseaseFragment)mFragmentManager.findFragmentByTag(DiseaseFragment.class.getName());
         channelFragment = (ChannelFragment)mFragmentManager.findFragmentByTag(ChannelFragment.class.getName());
         drugMaterialFragment = (DrugMaterialFragment)mFragmentManager.findFragmentByTag(DrugMaterialFragment.class.getName());
-        cMSenseFragment = (SenseFragment)mFragmentManager.findFragmentByTag(SenseFragment.class.getName());
-        allFragments = Arrays.asList(diseaseFragment , channelFragment, drugMaterialFragment , cMSenseFragment);
+        fTSFragment = (FTSFragment)mFragmentManager.findFragmentByTag(FTSFragment.class.getName());
+        allFragments = Arrays.asList(diseaseFragment , channelFragment, drugMaterialFragment , fTSFragment);
 
         int index = savedInstanceState.getInt(SAVE_FRAGMENT_INDEX);
         mTransaction = mFragmentManager.beginTransaction();
@@ -119,7 +119,7 @@ public class CMMainActivity extends BaseActivity {
                 radioGroup.check(R.id.btnDrug);
                 changeRadioDrawableTop(R.id.btnDrug , true);
                 break;
-            case INDEX_CMSENSEFRAGMENT:
+            case INDEX_FTSFRAGMENT:
                 radioGroup.check(R.id.btnCMSense);
                 changeRadioDrawableTop(R.id.btnCMSense , true);
                 break;
@@ -134,18 +134,18 @@ public class CMMainActivity extends BaseActivity {
         diseaseFragment = new DiseaseFragment();
         channelFragment = new ChannelFragment();
         drugMaterialFragment = new DrugMaterialFragment();
-        cMSenseFragment = new SenseFragment();
+        fTSFragment = new FTSFragment();
 
         mTransaction = mFragmentManager.beginTransaction();
         mTransaction.add(R.id.main_fragment_container , diseaseFragment , DiseaseFragment.class.getName()).hide(diseaseFragment)
                 .add(R.id.main_fragment_container , channelFragment, ChannelFragment.class.getName()).hide(channelFragment)
                 .add(R.id.main_fragment_container , drugMaterialFragment, DrugMaterialFragment.class.getName()).hide(drugMaterialFragment)
-                .add(R.id.main_fragment_container , cMSenseFragment, SenseFragment.class.getName()).hide(cMSenseFragment);
+                .add(R.id.main_fragment_container , fTSFragment, FTSFragment.class.getName()).hide(fTSFragment);
 
         mTransaction.show(diseaseFragment);
         mTransaction.commit();
 
-        allFragments = Arrays.asList(diseaseFragment , channelFragment, drugMaterialFragment , cMSenseFragment);
+        allFragments = Arrays.asList(diseaseFragment , channelFragment, drugMaterialFragment , fTSFragment);
     }
 
     private final void hideAllFragments() {
@@ -185,7 +185,7 @@ public class CMMainActivity extends BaseActivity {
                 mCurrentFragmentIndex = INDEX_DRUGMATERIALFRAGMENT;
                 break;
             case R.id.btnCMSense:
-                mCurrentFragmentIndex = INDEX_CMSENSEFRAGMENT;
+                mCurrentFragmentIndex = INDEX_FTSFRAGMENT;
                 break;
             default:
                 break;

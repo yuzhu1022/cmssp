@@ -8,8 +8,7 @@ class Domain_Channel {
 
     public function getList($pageNumber) {
 		
-		//todo check 
-		
+		//todo check 	
         $model = new Model_Channel();
 		$channels = $model->getList($pageNumber);
 		
@@ -22,5 +21,6 @@ class Domain_Channel {
 		
 		return $channels;
     }
+	
 }
 

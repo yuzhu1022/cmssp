@@ -12,5 +12,6 @@ class Domain_Disease {
 		$rs = $model->getList($pageNumber , $cateId);
 		return $rs;
     }
+
 }
 
