@@ -6,8 +6,15 @@ android:layout_width="match_parent"
 android:layout_height="48dp"
 android:gravity="center_vertical"
 android:layout_alignParentBottom="true"
-android:background="@color/black_161212"
+android:background="@color/white_bg"
 android:orientation="horizontal">
+
+<RadioButton
+    style="@style/radioStyle"
+    android:textSize="0sp"
+    android:text="fts"
+    android:drawableTop="@drawable/navi_sense"
+    android:id="@+id/btnFTS" />
 
 <RadioButton
     style="@style/radioStyle"
@@ -30,10 +37,5 @@ android:orientation="horizontal">
     android:drawableTop="@drawable/navi_drugmaterial"
     android:id="@+id/btnDrug" />
 
-<RadioButton
-    style="@style/radioStyle"
-    android:textSize="0sp"
-    android:text="sense"
-    android:drawableTop="@drawable/navi_sense"
-    android:id="@+id/btnCMSense" />
+
 </RadioGroup>

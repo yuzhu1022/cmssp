@@ -17,7 +17,7 @@
             android:id="@+id/diseaseSource"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:src="@drawable/disease_48_light"
+            android:src="@drawable/disease_48_pressed"
             android:background="@null"
             android:paddingBottom="1dp"/>
 

@@ -4,26 +4,64 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white_bg"
+    android:background="@color/forestgreen"
     >
 
     <include layout="@layout/layout_title"></include>
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/hospital"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView"/>
+
         <EditText
             android:id="@+id/FTSEditText"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_centerInParent="true"
+            android:layout_height="40dp"
             android:background="@drawable/shape_rect"
             android:drawableLeft="@drawable/search_dark"
             android:drawablePadding="15dp"
-            android:paddingLeft="15dp"
-            android:layout_marginLeft="20dp"
             android:hint="@string/searchHint"
-            android:textColorHint="@color/gray_dfdfdf" />
+            android:paddingLeft="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/count_bg"
+            android:layout_marginTop="150dp" />
+
+        <TextView
+            android:text="热门标签"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/white_bg"
+            android:textSize="20sp"
+            android:layout_below="@+id/FTSEditText"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="37dp" />
     </RelativeLayout>
 
+    <com.ox.widgets.CustomGrideView
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:numColumns="3"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:stretchMode="spacingWidthUniform"
+        android:paddingTop="5dp"
+        android:verticalSpacing="8dp"
+        android:horizontalSpacing="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.ox.widgets.CustomGrideView>
 </LinearLayout>

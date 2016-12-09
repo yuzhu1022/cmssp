@@ -23,14 +23,15 @@ import butterknife.BindView;
 
 public class CMMainActivity extends BaseActivity {
 
+    //FTS搜索
+    private FTSFragment fTSFragment;
     //常见疾病
     private DiseaseFragment diseaseFragment;
     //穴位按摩
     private ChannelFragment channelFragment;
     //药材药方
     private DrugMaterialFragment drugMaterialFragment;
-    //FTS搜索
-    private FTSFragment fTSFragment;
+
 
     private FragmentManager mFragmentManager;
 
@@ -59,8 +60,8 @@ public class CMMainActivity extends BaseActivity {
     @BindView(R.id.btnDrug)
     RadioButton drugButton;
 
-    @BindView(R.id.btnCMSense)
-    RadioButton senseButton;
+    @BindView(R.id.btnFTS)
+    RadioButton ftsButton;
 
     @Override
     public int getLayout() {
@@ -76,7 +77,7 @@ public class CMMainActivity extends BaseActivity {
         diseaseButton.setOnCheckedChangeListener(listener);
         channelButton.setOnCheckedChangeListener(listener);
         drugButton.setOnCheckedChangeListener(listener);
-        senseButton.setOnCheckedChangeListener(listener);
+        ftsButton.setOnCheckedChangeListener(listener);
 
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -89,24 +90,28 @@ public class CMMainActivity extends BaseActivity {
     private void initFragments(Bundle savedInstanceState) {
         if (savedInstanceState == null){
             createFragments();
-            radioGroup.check(R.id.btnDisease);
-            changeRadioDrawableTop(R.id.btnDisease , true);
+            radioGroup.check(R.id.btnFTS);
+            changeRadioDrawableTop(R.id.btnFTS , true);
         }else{
             restoreFragments(savedInstanceState);
         }
     }
 
     private void restoreFragments(Bundle savedInstanceState) {
+        fTSFragment = (FTSFragment)mFragmentManager.findFragmentByTag(FTSFragment.class.getName());
         diseaseFragment = (DiseaseFragment)mFragmentManager.findFragmentByTag(DiseaseFragment.class.getName());
         channelFragment = (ChannelFragment)mFragmentManager.findFragmentByTag(ChannelFragment.class.getName());
         drugMaterialFragment = (DrugMaterialFragment)mFragmentManager.findFragmentByTag(DrugMaterialFragment.class.getName());
-        fTSFragment = (FTSFragment)mFragmentManager.findFragmentByTag(FTSFragment.class.getName());
-        allFragments = Arrays.asList(diseaseFragment , channelFragment, drugMaterialFragment , fTSFragment);
+        allFragments = Arrays.asList(fTSFragment , diseaseFragment , channelFragment, drugMaterialFragment);
 
         int index = savedInstanceState.getInt(SAVE_FRAGMENT_INDEX);
         mTransaction = mFragmentManager.beginTransaction();
 
         switch (index){
+            case INDEX_FTSFRAGMENT:
+                radioGroup.check(R.id.btnFTS);
+                changeRadioDrawableTop(R.id.btnFTS, true);
+                break;
             case INDEX_DISEASEFRAGMENT :
                 radioGroup.check(R.id.btnDisease);
                 changeRadioDrawableTop(R.id.btnDisease , true);
@@ -119,10 +124,6 @@ public class CMMainActivity extends BaseActivity {
                 radioGroup.check(R.id.btnDrug);
                 changeRadioDrawableTop(R.id.btnDrug , true);
                 break;
-            case INDEX_FTSFRAGMENT:
-                radioGroup.check(R.id.btnCMSense);
-                changeRadioDrawableTop(R.id.btnCMSense , true);
-                break;
             default:
                 break;
         }
@@ -131,10 +132,10 @@ public class CMMainActivity extends BaseActivity {
     }
 
     private void createFragments() {
+        fTSFragment = new FTSFragment();
         diseaseFragment = new DiseaseFragment();
         channelFragment = new ChannelFragment();
         drugMaterialFragment = new DrugMaterialFragment();
-        fTSFragment = new FTSFragment();
 
         mTransaction = mFragmentManager.beginTransaction();
         mTransaction.add(R.id.main_fragment_container , diseaseFragment , DiseaseFragment.class.getName()).hide(diseaseFragment)
@@ -142,10 +143,10 @@ public class CMMainActivity extends BaseActivity {
                 .add(R.id.main_fragment_container , drugMaterialFragment, DrugMaterialFragment.class.getName()).hide(drugMaterialFragment)
                 .add(R.id.main_fragment_container , fTSFragment, FTSFragment.class.getName()).hide(fTSFragment);
 
-        mTransaction.show(diseaseFragment);
+        mTransaction.show(fTSFragment);
         mTransaction.commit();
 
-        allFragments = Arrays.asList(diseaseFragment , channelFragment, drugMaterialFragment , fTSFragment);
+        allFragments = Arrays.asList(fTSFragment , diseaseFragment , channelFragment, drugMaterialFragment);
     }
 
     private final void hideAllFragments() {
@@ -157,7 +158,6 @@ public class CMMainActivity extends BaseActivity {
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
         outState.putInt(SAVE_FRAGMENT_INDEX , mCurrentFragmentIndex);
     }
 
@@ -184,7 +184,7 @@ public class CMMainActivity extends BaseActivity {
             case R.id.btnDrug:
                 mCurrentFragmentIndex = INDEX_DRUGMATERIALFRAGMENT;
                 break;
-            case R.id.btnCMSense:
+            case R.id.btnFTS:
                 mCurrentFragmentIndex = INDEX_FTSFRAGMENT;
                 break;
             default:
@@ -207,7 +207,7 @@ public class CMMainActivity extends BaseActivity {
         else if (tag.equals("drugmaterial")){
             buttonView.setCompoundDrawablesWithIntrinsicBounds(0 , isChecked ? R.drawable.material_48_pressed:R.drawable.material_48_normal, 0 ,0);
         }
-        else if (tag.equals("sense")){
+        else if (tag.equals("fts")){
             buttonView.setCompoundDrawablesWithIntrinsicBounds(0 , isChecked ? R.drawable.sense_48_pressed:R.drawable.sense_48_normal, 0 ,0);
         }
 
