@@ -1,0 +1,11 @@
+{
+    "id": 396,
+    "name": "白花蛇舌草",
+    "summary": "<section>\n    <dl>\n    <dd><img class=\"img-responsive detail-content-img\" src=\"http://image.dajiazhongyi.com/upload/material/image/2015/07/29/1438153246904110.jpg!lw-720\"></dd>\n    </dl>\n</section>\n<section>\n    <h4>拼音</h4>\n    <p>B&aacute;i Huā Sh&eacute; Sh&eacute; Cǎo</p>\n</section>\n<section>\n    <h4>性味功效</h4>\n    <dl>\n<dt>《中药大辞典》</dt></p><p><dd>清热，利湿，解毒。治肺热喘咳，扁桃体炎。咽喉炎，<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"acupoint\" object-id=\"129\">阑尾</a>炎，痢疾，尿路感染，<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"wiki\" object-id=\"2231\">黄疸</a>，肝炎，盆腔炎，附件炎，<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"wiki\" object-id=\"1327\">痈</a>肿<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"wiki\" object-id=\"1277\">疔</a>疮，毒蛇咬伤，肿瘤。亦可用于消化道癌症。</dd>\n    </dl>\n</section>\n<section>\n    <h4>归经</h4>\n    <dl>\n<dd>归胃、大肠、小肠经。</dd>\n    </dl>\n</section>\n",
+    "usage": "",
+    "pieces": "<section>\n    <h4>饮片特征及品质</h4>\n    <dl>\n<dd><img class=\"img-responsive detail-content-img\" src=\"http://image.dajiazhongyi.com/upload/material/image/2015/06/10/1433905245813171.jpg!lw-720\"></dd></p><p><dd><img class=\"img-responsive detail-content-img\" src=\"http://image.dajiazhongyi.com/upload/material/image/2015/06/10/1433905256518108.jpg!lw-720\"></dd></p><p><dd><img class=\"img-responsive detail-content-img\" src=\"http://image.dajiazhongyi.com/upload/material/image/2015/06/10/1433905266261530.jpg!lw-720\"></dd>\n    </dl>\n</section>\n<section>\n    <h4>来源产地</h4>\n    <dl>\n<dt>《中药大辞典》</dt></p><p><dd>为<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"drug\" object-id=\"87\">茜草</a>种植物<a class=\"dj-tipinfo\" href=\"javascript:void(0)\" object-type=\"drug\" object-id=\"385\">白花蛇</a>舌草的带根全草。夏、秋采收，晒干或鲜用。</dd></p><p><dd>生于山坡、路边、溪畔草丛中。分布云南、广东、广西、福建、浙江、江苏、安徽等地。</dd>\n    </dl>\n</section>\n",
+    "processing": "",
+    "share_key": "OGY4M1lTS21DUnd3UjlmeTlHeFVmdk5ROEw0Y3k4R2F6T0Y4SVVybDgwOA==",
+    "pinyin": "Bái Huā Shé Shé Cǎo",
+    "icon": "http://image.dajiazhongyi.com/upload/material/image/2015/07/29/1438153246904110_thumb.jpg!lw-120"
+}
