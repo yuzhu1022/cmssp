@@ -9,6 +9,7 @@
     <TextView
         style="@style/style_point_content"
         android:id="@+id/hotitem"
+        android:textSize="10sp"
         android:gravity="center"
         android:textColor="@color/game_title_bg"
         android:text="迎香穴"/>
