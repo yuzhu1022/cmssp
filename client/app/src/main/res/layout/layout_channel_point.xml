@@ -3,18 +3,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     style="@style/baseTheme"
-    android:background="@color/forestgreen"
-    android:layout_height="40dp">
+    android:background="@drawable/shape_rect"
+    android:layout_height="45dp">
 
     <TextView
         style="@style/style_point_content"
         android:id="@+id/pointName"
         android:gravity="center"
+        android:textColor="@color/black"
         android:text="迎香穴"/>
 
     <TextView
         style="@style/style_point_tone_content"
         android:text="yíng xiāng xué"
+        android:textColor="@color/black"
         android:gravity="center"
         android:id="@+id/pointTone"
         android:textAlignment="center" />
