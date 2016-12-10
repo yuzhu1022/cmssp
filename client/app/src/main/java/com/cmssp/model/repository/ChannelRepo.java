@@ -3,10 +3,10 @@ package com.cmssp.model.repository;
 import com.cmssp.Const;
 import com.cmssp.model.entity.ChannelListEntity;
 import com.cmssp.model.service.ChannelService;
-import com.ox.Constant;
 import com.ox.base.BaseEntity;
 import com.ox.base.BaseRepo;
 import com.ox.data.retrofit.RetrofitClient;
+import com.ox.utils.MockUtil;
 import com.ox.utils.SingletonUtils;
 
 import rx.Observable;
@@ -25,7 +25,7 @@ public class ChannelRepo extends BaseRepo {
 
     public Observable<BaseEntity<ChannelListEntity>> getChannelList(int pageNumber){
         return transform(
-                !Constant.openMock
+                !MockUtil.OPEN_MOCK
                         ?
                         service.channelList(Const.SERVICE_CHANNEL_GETLIST , Const.AUTH_TOKEN , pageNumber)
                         :

@@ -35,11 +35,14 @@ public class MockUtil {
 
     public static Map<String ,String> mAttrs = new HashMap<>();
 
+    public static final boolean OPEN_MOCK = true;
+
     static {
         mAttrs.put("disease" , "disease");
         mAttrs.put("channel" , "channel");
         mAttrs.put("drug" , "drug");
         mAttrs.put("sense" , "sense");
+        mAttrs.put("hottag" , "hottag");
     }
 
     /**

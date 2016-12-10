@@ -2,7 +2,6 @@ package com.ox.data.retrofit;
 
 import android.content.Context;
 
-import com.ox.Constant;
 import com.ox.utils.MockUtil;
 import com.zhy.http.okhttp.log.LoggerInterceptor;
 
@@ -29,7 +28,7 @@ public class RetrofitClient {
 
         OkHttpClient.Builder okBuilder = new OkHttpClient.Builder();
         okBuilder.addInterceptor(new LoggerInterceptor("ox"));
-        if (Constant.openMock){
+        if (MockUtil.OPEN_MOCK){
             MockUtil.openMock(mContext , okBuilder , null);
         }
         OkHttpClient okHttpClient = okBuilder.build();

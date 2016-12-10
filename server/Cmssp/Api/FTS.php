@@ -33,14 +33,14 @@ class Api_FTS extends PhalApi_Api {
     }
 
     /**
-     * hotTag
+     * hotTags
      * @desc 获取热门疾病标签
     * @return ret 返回码 类似http请求 2XX 4XX 5XX
     * @return msg 请求描述
     * @return data 实际返回数据
     * @return array 疾病标签列表
      */
-    public function hotTag(){
+    public function hotTags(){
       $rs = array("感冒","发烧","便秘","肚子痛","咳嗽","腰痛","关节炎","头晕","头痛","头胀","四肢麻木","手脚冰冷");
 
       return $rs;

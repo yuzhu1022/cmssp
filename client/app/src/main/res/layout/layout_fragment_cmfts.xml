@@ -53,10 +53,11 @@
     </RelativeLayout>
 
     <com.ox.widgets.CustomGrideView
+        android:id="@+id/hotTags"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
-        android:numColumns="3"
-        android:columnWidth="100dp"
+        android:numColumns="4"
+        android:columnWidth="70dp"
         android:gravity="center"
         android:stretchMode="spacingWidthUniform"
         android:paddingTop="5dp"

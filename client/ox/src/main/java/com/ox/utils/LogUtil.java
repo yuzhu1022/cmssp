@@ -3,9 +3,8 @@ package com.ox.utils;
 /**
  * Created by Administrator on 2016/9/27.
  */
-import android.util.Log;
 
-import com.ox.Constant;
+import android.util.Log;
 
 import java.util.Hashtable;
 
@@ -14,6 +13,7 @@ import java.util.Hashtable;
  */
 public class LogUtil {
 
+    private static final boolean OPEN_LOG = true;
     private final static String LOG_TAG = "OX";
     private static Hashtable<String, LogUtil> sLoggerTable;
     private String mClassName;
@@ -36,49 +36,49 @@ public class LogUtil {
     }
 
     public void v(String log) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.v(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log);
         }
     }
 
     public void d(String log) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.d(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log);
         }
     }
 
     public void i(String log) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.i(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log);
         }
     }
 
     public void i(String log, Throwable tr) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.i(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log + "\n" + Log.getStackTraceString(tr));
         }
     }
 
     public void w(String log) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.w(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log);
         }
     }
 
     public void w(String log, Throwable tr) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.w(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log + "\n" + Log.getStackTraceString(tr));
         }
     }
 
     public void e(String log) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.e(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log);
         }
     }
 
     public void e(String log, Throwable tr) {
-        if (Constant.DEBUG_MODE) {
+        if (OPEN_LOG) {
             Log.e(LOG_TAG, "{Thread:" + Thread.currentThread().getName() + "}" + "[" + mClassName + ":] " + log + "\n" + Log.getStackTraceString(tr));
         }
     }

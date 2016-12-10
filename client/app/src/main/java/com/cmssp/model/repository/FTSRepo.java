@@ -7,7 +7,6 @@ import com.cmssp.model.fts.SymbotomEntity;
 import com.cmssp.model.fts.SymbotomEntityList;
 import com.ox.base.BaseRepo;
 import com.ox.data.sqlite.OXSqliteTableHelper;
-import com.ox.utils.SingletonUtils;
 
 import rx.Observable;
 import rx.Subscriber;
@@ -17,8 +16,6 @@ import rx.Subscriber;
  */
 
 public class FTSRepo extends BaseRepo {
-
-    public static FTSRepo instance = SingletonUtils.newInstance(FTSRepo.class);
 
     private static final String SYMBOTOM_TABLE_NAME = "cmssp_symbotom";
 

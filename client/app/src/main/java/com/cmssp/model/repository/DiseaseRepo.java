@@ -3,10 +3,10 @@ package com.cmssp.model.repository;
 import com.cmssp.Const;
 import com.cmssp.model.entity.DiseaseListEntity;
 import com.cmssp.model.service.DiseaseService;
-import com.ox.Constant;
 import com.ox.base.BaseEntity;
 import com.ox.base.BaseRepo;
 import com.ox.data.retrofit.RetrofitClient;
+import com.ox.utils.MockUtil;
 import com.ox.utils.SingletonUtils;
 
 import rx.Observable;
@@ -26,7 +26,7 @@ public class DiseaseRepo extends BaseRepo {
 
     public Observable<BaseEntity<DiseaseListEntity>> getDiseaseList(int pageNumber , int cateId){
         return transform(
-                !Constant.openMock
+                !MockUtil.OPEN_MOCK
                         ?
                         service.diseaseList(Const.SERVICE_DISEASE_GETLIST , Const.AUTH_TOKEN , pageNumber , cateId)
                         :

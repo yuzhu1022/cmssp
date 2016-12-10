@@ -15,15 +15,16 @@ public class Const {
 
     /******************网络请求相关*******************/
     public static final String AUTH_TOKEN = "PHJlCTx5Orlt50vJYytlTkpa3xJQdXPzUggllQNUEodMxntAcwCMzxEGkPM8v5QU";
-    public static final String NET_BASE_URL = "http://cmssp.applinzi.com/Public/";
+    public static final String NET_BASE_URL = DEBUG_MODE ? "http://192.168.1.106/Public/" :  "http://cmssp.applinzi.com/Public/";
 
     public static final String HTML_BASE_URL = "http://cmssp.applinzi.com/html/";
-//    public static final String NET_BASE_URL = "http://192.168.253.1/";
 
     //接口列表
     public static final String SERVICE_DISEASE_GETLIST = "Disease.GetList";
 
     public static final String SERVICE_CHANNEL_GETLIST = "Channel.GetList";
+
+    public static final String SERVICE_FTS_HOTTAGS = "FTS.HotTags";
 
     /******************错误码*******************/
     public static final int ERROR_OK = 200;
