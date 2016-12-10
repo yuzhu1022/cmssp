@@ -53,7 +53,7 @@ public class FTSFragment extends BaseFragment{
                 if (helper.getPosition() == 0){
                     helper.setTextColor(R.id.hotitem , ResourceUtils.getColor(mContext , "red") );
                 }else if (helper.getPosition() == 1){
-                    helper.setTextColor(R.id.hotitem , ResourceUtils.getColor(mContext , "blue") );
+                    helper.setTextColor(R.id.hotitem , ResourceUtils.getColor(mContext , "hotpink") );
                 }else if (helper.getPosition() == 2){
                     helper.setTextColor(R.id.hotitem , ResourceUtils.getColor(mContext , "orange") );
                 }
