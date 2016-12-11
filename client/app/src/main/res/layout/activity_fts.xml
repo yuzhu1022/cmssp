@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fts"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.cmssp.module.cmsense.FTSActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_rect"
+            android:drawableLeft="@drawable/search_dark"
+            android:drawablePadding="@dimen/padding_15dp"
+            android:hint="@string/searchHint"
+            android:paddingLeft="@dimen/padding_15dp"
+            android:paddingTop="@dimen/padding_15dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/count_bg"/>
+
+        <TextView
+            android:id="@+id/cancelSearch"
+            android:text="@string/cancelSearch"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingLeft="@dimen/padding_15dp"
+        android:paddingTop="@dimen/padding_15dp"
+        android:layout_below="@+id/searchEditText"
+        android:id="@+id/searchResultView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

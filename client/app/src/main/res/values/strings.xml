@@ -9,4 +9,5 @@
     <string name="zhiliaosilu">治疗思路：</string>
     <string name="changyongjingfang">常用经方：</string>
     <string name="searchHint">输入疾病，症状或穴位</string>
+    <string name="cancelSearch">取消</string>
 </resources>

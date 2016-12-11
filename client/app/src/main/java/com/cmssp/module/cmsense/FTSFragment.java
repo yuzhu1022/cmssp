@@ -14,6 +14,7 @@ import com.ox.adapter.AdapterHelper;
 import com.ox.base.BaseEntity;
 import com.ox.base.BaseFragment;
 import com.ox.data.retrofit.DefaultSubscriber;
+import com.ox.utils.ActivityUtil;
 import com.ox.utils.ResourceUtils;
 import com.ox.widgets.CustomGrideView;
 
@@ -61,6 +62,13 @@ public class FTSFragment extends BaseFragment{
         };
 
         gridView.setAdapter(gridAdapter);
+
+        editText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ActivityUtil.start(mContext , FTSActivity.class);
+            }
+        });
 
     }
 
